@@ -1,0 +1,22 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 10rem;
+  background-color: black;
+  color: white;
+  user-select: none;
+  padding: 1rem 2rem;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.logo img {
+  width: 80%;
+  height: auto;
+}
