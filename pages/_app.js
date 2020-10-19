@@ -1,18 +1,28 @@
 import '../styles/globals.css'
 
-function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
-}
+import App from 'next/app'
+import UserContext from '../components/UserContext'
 
-MyApp.getInitialProps = async (appContext) => {
-  let pageProps = {}
-  if (appContext.Component.getInitialProps) {
-    pageProps = await appContext.Component.getInitialProps(appContext.ctx)
+export default class MyApp extends App {
+  state = {
+    job: null,
   }
 
-  return {
-    pageProps,
+  selectJob = (selectedJob) => {
+    localStorage.setItem('user-job', selectedJob)
+
+    this.setState({
+      job: selectedJob,
+    })
+  }
+
+  render() {
+    const { Component, pageProps } = this.props
+
+    return (
+      <UserContext.Provider value={{ job: this.state.job, selectJob: this.selectJob }}>
+        <Component {...pageProps} />
+      </UserContext.Provider>
+    )
   }
 }
-
-export default MyApp
