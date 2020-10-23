@@ -1,9 +1,9 @@
 import { useState, useContext } from 'react'
-import styles from './jobselection.module.css'
 import UserContext from './UserContext'
+import styles from './jobselection.module.css'
 
 function JobButtons() {
-  const { job: selectedJob, selectJob } = useContext(UserContext)
+  const { selectJob } = useContext(UserContext)
   const [jobSelected, setJobSelected] = useState('None')
 
   function Button({ job, fullname }) {
@@ -28,16 +28,12 @@ function JobButtons() {
 
   return (
     <div>
-      <div className={styles.innercontainertitle}>
-        <p>
-          Selected Job: {`${selectedJob}`}/{`${jobSelected}`}
-        </p>
-      </div>
       <div className={styles.joblist}>
         <div className={styles.jobroles}>
           <Button job="pld" fullname="Paladin" />
           <Button job="war" fullname="Warrior" />
           <Button job="drk" fullname="Dark Knight" />
+          <Button job="gnb" fullname="Gunbreaker" />
         </div>
         <div className={styles.jobroles}>
           <Button job="whm" fullname="White Mage" />
@@ -66,37 +62,7 @@ function JobButtons() {
 }
 
 const JobSelection = () => {
-  return (
-    <div className={styles.content}>
-      <div className={styles.container}>
-        <div className={styles.column}>
-          <div className={styles.innercontainer}>
-            <div className={styles.innercontainertitle}>
-              <p>Select a Boss</p>
-            </div>
-            <div className={styles.bossselectcontainer} />
-          </div>
-          <div className={styles.innercontainer}>
-            <JobButtons />
-          </div>
-        </div>
-        <div className={styles.column}>
-          <div className={styles.innercontainer}>
-            <div className={styles.innercontainertitle}>
-              <p>Dummy Settings</p>
-            </div>
-            Test
-          </div>
-          <div className={styles.innercontainer}>
-            <div className={styles.innercontainertitle}>
-              <p>Results</p>
-            </div>
-            Test
-          </div>
-        </div>
-      </div>
-    </div>
-  )
+  return <JobButtons />
 }
 
 export default JobSelection
