@@ -1,5 +1,6 @@
 import { useState, useMemo } from 'react'
 import { createStyles, makeStyles, Theme } from '@material-ui/core/styles'
+import { FaCaretDown } from 'react-icons/fa'
 import List from '@material-ui/core/List'
 import ListItem from '@material-ui/core/ListItem'
 import ListItemText from '@material-ui/core/ListItemText'
@@ -75,6 +76,7 @@ function BossMenu({ selectedIndex, setSelectedIndex }) {
       <List component="nav">
         <ListItem button onClick={handleClickListItem}>
           <ListItemText primary={allBosses[selectedIndex]} />
+          <FaCaretDown />
         </ListItem>
       </List>
       <Menu
