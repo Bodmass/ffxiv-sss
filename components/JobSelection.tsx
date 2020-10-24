@@ -1,14 +1,20 @@
-import { useState } from 'react'
+import { useState, useContext } from 'react'
 import styles from './jobselection.module.css'
+import UserContext from './UserContext'
 
 function JobButtons() {
-  const [jobSelected, setJobSelected] = useState('No Job Selected')
+  const { job: selectedJob, selectJob } = useContext(UserContext)
+  const [jobSelected, setJobSelected] = useState('None')
+
   function Button({ job, fullname }) {
     return (
       <div className={styles.button}>
         <a
           className={styles.jobicon}
-          onClick={() => setJobSelected(fullname)}
+          onClick={() => {
+            setJobSelected(fullname)
+            selectJob(job)
+          }}
           onKeyPress={() => setJobSelected(fullname)}
           role="button"
           tabIndex={0}
@@ -23,7 +29,9 @@ function JobButtons() {
   return (
     <div>
       <div className={styles.innercontainertitle}>
-        <p>Selected Job: {`${jobSelected}`}</p>
+        <p>
+          Selected Job: {`${selectedJob}`}/{`${jobSelected}`}
+        </p>
       </div>
       <div className={styles.joblist}>
         <div className={styles.jobroles}>
