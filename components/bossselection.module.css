@@ -1,0 +1,8 @@
+.expansionbtngrp {
+  display: flex;
+  justify-content: space-between;
+}
+
+.expansionbtn {
+  color: white;
+}

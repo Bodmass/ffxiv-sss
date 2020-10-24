@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Header from '../components/Header'
-import JobSelection from '../components/JobSelection'
+import Calculator from '../components/Calculator'
 
 export default function Home() {
   return (
@@ -10,7 +10,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
-      <JobSelection />
+      <Calculator />
     </div>
   )
 }
