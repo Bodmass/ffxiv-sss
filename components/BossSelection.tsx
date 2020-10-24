@@ -1,5 +1,5 @@
 import { useState, useMemo } from 'react'
-import { makeStyles } from '@material-ui/core/styles'
+import { createStyles, makeStyles, Theme } from '@material-ui/core/styles'
 import List from '@material-ui/core/List'
 import ListItem from '@material-ui/core/ListItem'
 import ListItemText from '@material-ui/core/ListItemText'
@@ -9,17 +9,16 @@ import ButtonGroup from '@material-ui/core/ButtonGroup'
 import Menu from '@material-ui/core/Menu'
 import data from '../public/bossdata/data.json'
 
-const useStyles = makeStyles(() => ({
-  root: {
-    borderRadius: '0.5rem',
-    background: 'white',
-    color: 'black',
-  },
-  paper: {},
-  list: {
-    fontSize: '3rem',
-  },
-}))
+const useStyles = makeStyles((theme: Theme) =>
+  createStyles({
+    root: {
+      borderRadius: '0.5rem',
+      background: 'white',
+      color: 'black',
+      fontSize: theme.typography.fontSize,
+    },
+  })
+)
 
 const ITEM_HEIGHT = 48
 const bossData = data.boss
@@ -28,18 +27,20 @@ const allBosses = []
 const trialBosses = []
 const raidBosses = []
 
-function populateOptions() {
+function populateOptions(expansion) {
   allBosses.length = 0
   trialBosses.length = 0
   raidBosses.length = 0
   trialBosses.push('Trials')
   raidBosses.push('Raids')
   bossData.forEach((boss) => {
-    if (boss.type === 'Trial') {
-      trialBosses.push(boss.bossName)
-    }
-    if (boss.type === 'Raid') {
-      raidBosses.push(boss.bossName)
+    if (boss.expansion === expansion) {
+      if (boss.type === 'Trial') {
+        trialBosses.push(boss.bossName)
+      }
+      if (boss.type === 'Raid') {
+        raidBosses.push(boss.bossName)
+      }
     }
   })
 
@@ -52,10 +53,9 @@ function populateOptions() {
   })
 }
 
-function SimpleListMenu() {
+function BossMenu({ selectedIndex, setSelectedIndex }) {
   const classes = useStyles()
   const [anchorEl, setAnchorEl] = useState(null)
-  const [selectedIndex, setSelectedIndex] = useState(1)
 
   const handleClickListItem = (event) => {
     setAnchorEl(event.currentTarget)
@@ -85,9 +85,20 @@ function SimpleListMenu() {
         onClose={handleClose}
         PaperProps={{
           style: {
-            maxHeight: ITEM_HEIGHT * 4.5,
+            maxHeight: ITEM_HEIGHT * 5,
             width: '300px',
+            marginTop: '0.7rem',
           },
+        }}
+        elevation={0}
+        getContentAnchorEl={null}
+        anchorOrigin={{
+          vertical: 'bottom',
+          horizontal: 'center',
+        }}
+        transformOrigin={{
+          vertical: 'top',
+          horizontal: 'center',
         }}
       >
         {allBosses.map((option, index) => (
@@ -110,31 +121,43 @@ function SimpleListMenu() {
 
 const BossSelection = () => {
   const [expansion, setExpansion] = useState('Shadowbringers')
+  const [selectedIndex, setSelectedIndex] = useState(1)
 
   useMemo(() => {
-    populateOptions()
+    populateOptions(expansion)
+    setSelectedIndex(1)
   }, [expansion])
 
   return (
     <div>
       <ButtonGroup color="primary" aria-label="outlined primary button group" fullWidth>
         <Button
-          color={expansion === 'Shadowbringers' ? 'secondary' : 'primary'}
+          color={expansion === 'Shadowbringers' ? 'primary' : 'secondary'}
           variant={expansion === 'Shadowbringers' ? 'contained' : 'outlined'}
           onClick={() => setExpansion('Shadowbringers')}
         >
           Shadowbringers
         </Button>
+      </ButtonGroup>
+      <br />
+      <ButtonGroup color="primary" aria-label="outlined primary button group" fullWidth>
         <Button
-          color={expansion === 'Legacy' ? 'secondary' : 'primary'}
-          variant={expansion === 'Legacy' ? 'contained' : 'outlined'}
-          onClick={() => setExpansion('Legacy')}
+          color={expansion === 'Stormblood' ? 'primary' : 'secondary'}
+          variant={expansion === 'Stormblood' ? 'contained' : 'outlined'}
+          onClick={() => setExpansion('Stormblood')}
         >
-          Legacy
+          Stormblood
+        </Button>
+        <Button
+          color={expansion === 'Heavensward' ? 'primary' : 'secondary'}
+          variant={expansion === 'Heavensward' ? 'contained' : 'outlined'}
+          onClick={() => setExpansion('Heavensward')}
+        >
+          Heavensward
         </Button>
       </ButtonGroup>
 
-      <SimpleListMenu />
+      <BossMenu selectedIndex={selectedIndex} setSelectedIndex={setSelectedIndex} />
     </div>
   )
 }
