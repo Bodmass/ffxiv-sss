@@ -6,11 +6,16 @@ import UserContext from '../components/UserContext'
 export default class MyApp extends App {
   state = {
     job: null,
+    boss: null,
+  }
+
+  selectBoss = (selectedBoss) => {
+    this.setState({
+      boss: selectedBoss,
+    })
   }
 
   selectJob = (selectedJob) => {
-    localStorage.setItem('user-job', selectedJob)
-
     this.setState({
       job: selectedJob,
     })
@@ -20,7 +25,9 @@ export default class MyApp extends App {
     const { Component, pageProps } = this.props
 
     return (
-      <UserContext.Provider value={{ job: this.state.job, selectJob: this.selectJob }}>
+      <UserContext.Provider
+        value={{ job: this.state.job, selectJob: this.selectJob, boss: this.state.boss, selectBoss: this.selectBoss }}
+      >
         <Component {...pageProps} />
       </UserContext.Provider>
     )
