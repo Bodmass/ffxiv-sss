@@ -10,6 +10,11 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
+      <div className="updateDetails">
+        <p>
+          <b>Updated for Patch 5.3 (17/08/2020)</b>
+        </p>
+      </div>
       <Calculator />
     </div>
   )
