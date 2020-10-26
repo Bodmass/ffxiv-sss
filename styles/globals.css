@@ -22,5 +22,6 @@ a {
   justify-content: center;
   height: 0;
   padding-top: 2rem;
+  padding-bottom: 0.5rem;
   user-select: none;
 }
