@@ -1,5 +1,5 @@
 .content {
-  padding: 3rem 0;
+  padding-top: 2rem;
   display: flex;
   justify-content: center;
 
@@ -23,8 +23,15 @@
   border: 0.1rem solid rgb(51, 51, 51);
 }
 
+.innercontainersmaller {
+  width: 100%;
+  max-width: 300px;
+  height: 260px;
+}
+
 .innercontainer {
   width: 100%;
+  max-width: 300px;
   height: auto;
 }
 
@@ -40,4 +47,11 @@
   font-weight: bold;
   width: 300px;
   height: auto;
+}
+
+.inputcontainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 1rem 0rem;
 }
