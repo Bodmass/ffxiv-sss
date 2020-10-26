@@ -1,4 +1,25 @@
+import { FaGithub, FaGlobe } from 'react-icons/fa'
 import styles from './header.module.css'
+
+function HeaderList() {
+  function HeaderIcon({ children, link }) {
+    return (
+      <div className={styles.icon}>
+        <a href={link}> {children}</a>
+      </div>
+    )
+  }
+  return (
+    <div className={styles.icons}>
+      <HeaderIcon link="https://azizarar.com">
+        <FaGlobe />
+      </HeaderIcon>
+      <HeaderIcon link="https://github.com/bodmass">
+        <FaGithub />
+      </HeaderIcon>
+    </div>
+  )
+}
 
 const Header = () => {
   return (
@@ -6,6 +27,7 @@ const Header = () => {
       <div className={styles.logo}>
         <img src="../images/ssslogo.png" alt="" />
       </div>
+      <HeaderList />
     </div>
   )
 }
