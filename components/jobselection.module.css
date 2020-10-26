@@ -3,6 +3,7 @@
   flex-direction: column;
   flex-wrap: wrap;
   padding: 1rem;
+  user-select: none;
 }
 
 .jobroles {
