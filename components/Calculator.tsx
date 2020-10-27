@@ -108,7 +108,13 @@ const Calculator = () => {
               </Button>
             </ButtonGroup>
             <div className={styles.inputcontainer} style={{ display: dummyStatus === 'dead' ? 'flex' : 'none' }}>
-              <form noValidate autoComplete="off">
+              <form
+                noValidate
+                autoComplete="off"
+                onSubmit={(e) => {
+                  e.preventDefault()
+                }}
+              >
                 <TextField
                   id="standard-number"
                   label="Time Remaning (Seconds)"
@@ -144,7 +150,13 @@ const Calculator = () => {
               </form>
             </div>
             <div className={styles.inputcontainer} style={{ display: dummyStatus === 'alive' ? 'flex' : 'none' }}>
-              <form noValidate autoComplete="off">
+              <form
+                noValidate
+                autoComplete="off"
+                onSubmit={(e) => {
+                  e.preventDefault()
+                }}
+              >
                 <TextField
                   id="standard-number"
                   label="Health Remaining (%)"
