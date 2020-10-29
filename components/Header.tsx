@@ -1,4 +1,4 @@
-import { FaGithub, FaGlobe } from 'react-icons/fa'
+import { FaGithub, FaGlobe, FaTwitter } from 'react-icons/fa'
 import styles from './header.module.css'
 
 function HeaderList() {
@@ -16,6 +16,9 @@ function HeaderList() {
       </HeaderIcon>
       <HeaderIcon link="https://github.com/bodmass">
         <FaGithub />
+      </HeaderIcon>
+      <HeaderIcon link="https://twitter.com/bodmassad">
+        <FaTwitter />
       </HeaderIcon>
     </div>
   )
