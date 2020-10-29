@@ -120,7 +120,6 @@ const Calculator = () => {
                   label="Time Remaning (Seconds)"
                   type="number"
                   value={`${bossTime}`}
-                  defaultValue={`${bossTime}`}
                   onChange={(event) => {
                     setBossTime(Number(event.target.value))
                     const eventValue = event.target.value
@@ -162,7 +161,6 @@ const Calculator = () => {
                   label="Health Remaining (%)"
                   type="number"
                   value={`${hpPercent}`}
-                  defaultValue={`${hpPercent}`}
                   onChange={(event) => {
                     setHpPercent(Number(event.target.value))
                     const eventValue = event.target.value
