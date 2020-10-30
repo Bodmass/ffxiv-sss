@@ -1,9 +1,11 @@
 import '../styles/globals.css'
 import { useEffect } from 'react'
 import App from 'next/app'
+import { DefaultSeo } from 'next-seo'
 import { useRouter } from 'next/router'
 import UserContext from '../components/UserContext'
 import * as gtag from '../lib/gtag'
+import SEO from '../next-seo.config'
 
 function Analytics({ children }) {
   const router = useRouter()
@@ -46,6 +48,7 @@ export default class MyApp extends App {
         <UserContext.Provider
           value={{ job: this.state.job, selectJob: this.selectJob, boss: this.state.boss, selectBoss: this.selectBoss }}
         >
+          <DefaultSeo {...SEO} />
           <Component {...pageProps} />
         </UserContext.Provider>
       </Analytics>
