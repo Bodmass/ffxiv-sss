@@ -10,6 +10,9 @@ const images = [
     alt: 'SSS Image',
   },
 ]
+const tags = [
+  'FFXIV, Final Fantasy, Final Fantasy XIV, XIV, Final Fantasy 14, 14, Shadowbringers, Stone Sky Sea, Stone, Sky, Sea, SSS, DPS, DPS Calculator, Calculator, ',
+]
 
 module.exports = {
   title,
@@ -23,6 +26,7 @@ module.exports = {
     site_name: title,
     type: 'website',
     locale: 'en_GB',
+    tags,
   },
   twitter: {
     handle: '@bodmassad',
