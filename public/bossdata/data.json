@@ -1463,6 +1463,150 @@
         { "job": "smn", "bossHp": "2575200" },
         { "job": "rdm", "bossHp": "2640320" }
       ]
+    },
+    {
+      "bossName": "The Emerald Weapon (Extreme)",
+      "type": "Trial",
+      "expansion": "Shadowbringers",
+      "jobs": [
+        { "job": "pld", "bossHp": "1802640" },
+        { "job": "war", "bossHp": "1734560" },
+        { "job": "drk", "bossHp": "1773040" },
+        { "job": "gnb", "bossHp": "1829280" },
+        { "job": "whm", "bossHp": "1887000" },
+        { "job": "sch", "bossHp": "1551040" },
+        { "job": "ast", "bossHp": "1675360" },
+        { "job": "mnk", "bossHp": "2970360" },
+        { "job": "drg", "bossHp": "3013280" },
+        { "job": "nin", "bossHp": "2903760" },
+        { "job": "sam", "bossHp": "3073960" },
+        { "job": "brd", "bossHp": "2627000" },
+        { "job": "mch", "bossHp": "2942240" },
+        { "job": "dnc", "bossHp": "2254040" },
+        { "job": "blm", "bossHp": "3309280" },
+        { "job": "smn", "bossHp": "2908200" },
+        { "job": "rdm", "bossHp": "3004400" }
+      ]
+    },
+    {
+      "bossName": "Eden's Promise",
+      "type": "Raid",
+      "expansion": "Shadowbringers",
+      "jobs": [
+        { "job": "pld", "bossHp": "1644280" },
+        { "job": "war", "bossHp": "1582120" },
+        { "job": "drk", "bossHp": "1617640" },
+        { "job": "gnb", "bossHp": "1669440" },
+        { "job": "whm", "bossHp": "1722720" },
+        { "job": "sch", "bossHp": "1414880" },
+        { "job": "ast", "bossHp": "1527360" },
+        { "job": "mnk", "bossHp": "2711360" },
+        { "job": "drg", "bossHp": "2748360" },
+        { "job": "nin", "bossHp": "2649200" },
+        { "job": "sam", "bossHp": "2804600" },
+        { "job": "brd", "bossHp": "2396120" },
+        { "job": "mch", "bossHp": "2684720" },
+        { "job": "dnc", "bossHp": "2055720" },
+        { "job": "blm", "bossHp": "3020680" },
+        { "job": "smn", "bossHp": "2653640" },
+        { "job": "rdm", "bossHp": "2742440" }
+      ]
+    },
+    {
+      "bossName": "Eden's Promise 1 (Savage)",
+      "type": "Raid",
+      "expansion": "Shadowbringers",
+      "jobs": [
+        { "job": "pld", "bossHp": "1857400" },
+        { "job": "war", "bossHp": "1786360" },
+        { "job": "drk", "bossHp": "1826320" },
+        { "job": "gnb", "bossHp": "1885520" },
+        { "job": "whm", "bossHp": "1944720" },
+        { "job": "sch", "bossHp": "1598400" },
+        { "job": "ast", "bossHp": "1725680" },
+        { "job": "mnk", "bossHp": "3060640" },
+        { "job": "drg", "bossHp": "3103560" },
+        { "job": "nin", "bossHp": "2992560" },
+        { "job": "sam", "bossHp": "3167200" },
+        { "job": "brd", "bossHp": "2706920" },
+        { "job": "mch", "bossHp": "3031040" },
+        { "job": "dnc", "bossHp": "2322120" },
+        { "job": "blm", "bossHp": "3409920" },
+        { "job": "smn", "bossHp": "2997000" },
+        { "job": "rdm", "bossHp": "3096160" }
+      ]
+    },
+    {
+      "bossName": "Eden's Promise 2 (Savage)",
+      "type": "Raid",
+      "expansion": "Shadowbringers",
+      "jobs": [
+        { "job": "pld", "bossHp": "1915120" },
+        { "job": "war", "bossHp": "1842600" },
+        { "job": "drk", "bossHp": "1884040" },
+        { "job": "gnb", "bossHp": "1944720" },
+        { "job": "whm", "bossHp": "2005400" },
+        { "job": "sch", "bossHp": "1648720" },
+        { "job": "ast", "bossHp": "1780440" },
+        { "job": "mnk", "bossHp": "3156840" },
+        { "job": "drg", "bossHp": "3201240" },
+        { "job": "nin", "bossHp": "3085800" },
+        { "job": "sam", "bossHp": "3266360" },
+        { "job": "brd", "bossHp": "2791280" },
+        { "job": "mch", "bossHp": "3127240" },
+        { "job": "dnc", "bossHp": "2394640" },
+        { "job": "blm", "bossHp": "3517960" },
+        { "job": "smn", "bossHp": "3090240" },
+        { "job": "rdm", "bossHp": "3193840" }
+      ]
+    },
+    {
+      "bossName": "Eden's Promise 3 (Savage)",
+      "type": "Raid",
+      "expansion": "Shadowbringers",
+      "jobs": [
+        { "job": "pld", "bossHp": "1972840" },
+        { "job": "war", "bossHp": "1898840" },
+        { "job": "drk", "bossHp": "1940280" },
+        { "job": "gnb", "bossHp": "2003920" },
+        { "job": "whm", "bossHp": "2067560" },
+        { "job": "sch", "bossHp": "1699040" },
+        { "job": "ast", "bossHp": "1833720" },
+        { "job": "mnk", "bossHp": "3253040" },
+        { "job": "drg", "bossHp": "3298920" },
+        { "job": "nin", "bossHp": "3180520" },
+        { "job": "sam", "bossHp": "3365520" },
+        { "job": "brd", "bossHp": "2875640" },
+        { "job": "mch", "bossHp": "3221960" },
+        { "job": "dnc", "bossHp": "2467160" },
+        { "job": "blm", "bossHp": "3624520" },
+        { "job": "smn", "bossHp": "3183480" },
+        { "job": "rdm", "bossHp": "3290040" }
+      ]
+    },
+    {
+      "bossName": "Eden's Promise 4 (Savage)",
+      "type": "Raid",
+      "expansion": "Shadowbringers",
+      "jobs": [
+        { "job": "pld", "bossHp": "2097160" },
+        { "job": "war", "bossHp": "2018720" },
+        { "job": "drk", "bossHp": "2063120" },
+        { "job": "gnb", "bossHp": "2129720" },
+        { "job": "whm", "bossHp": "2196320" },
+        { "job": "sch", "bossHp": "1805600" },
+        { "job": "ast", "bossHp": "1949160" },
+        { "job": "mnk", "bossHp": "3457280" },
+        { "job": "drg", "bossHp": "3506120" },
+        { "job": "nin", "bossHp": "3378840" },
+        { "job": "sam", "bossHp": "3577160" },
+        { "job": "brd", "bossHp": "3056200" },
+        { "job": "mch", "bossHp": "3423240" },
+        { "job": "dnc", "bossHp": "2622560" },
+        { "job": "blm", "bossHp": "3850960" },
+        { "job": "smn", "bossHp": "3383280" },
+        { "job": "rdm", "bossHp": "3495760" }
+      ]
     }
   ]
 }
