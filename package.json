@@ -31,6 +31,7 @@
     "fathom-client": "^3.0.0",
     "next": "^9.5.3",
     "next-seo": "^4.7.3",
+    "object-path": "^0.11.5",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-ga": "^3.2.0",
