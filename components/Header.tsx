@@ -14,7 +14,7 @@ function HeaderList() {
       <HeaderIcon link="https://azizarar.com">
         <FaGlobe />
       </HeaderIcon>
-      <HeaderIcon link="https://github.com/bodmass">
+      <HeaderIcon link="https://github.com/Bodmass/ffxiv-sss">
         <FaGithub />
       </HeaderIcon>
       <HeaderIcon link="https://twitter.com/bodmassad">
