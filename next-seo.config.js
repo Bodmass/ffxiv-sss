@@ -1,6 +1,6 @@
 const title = 'FFXIV Stone, Sky, Sea Calculator'
 const description =
-  'Final Fantasy XIV Shadowbringers DPS Calculator for Stone, Sky, Sea. Updated for Patch 5.4 (11/12/2020)'
+  'Final Fantasy XIV Shadowbringers DPS Calculator for Stone, Sky, Sea. Updated for Patch 5.5 (13/04/2021)'
 const url = 'https://ffxiv.azizarar.com/'
 const images = [
   {

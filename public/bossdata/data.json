@@ -1607,6 +1607,30 @@
         { "job": "smn", "bossHp": "3383280" },
         { "job": "rdm", "bossHp": "3495760" }
       ]
+    },
+    {
+      "bossName": "The Diamond Weapon (Extreme)",
+      "type": "Trial",
+      "expansion": "Shadowbringers",
+      "jobs": [
+        { "job": "pld", "bossHp": "0" },
+        { "job": "war", "bossHp": "0" },
+        { "job": "drk", "bossHp": "0" },
+        { "job": "gnb", "bossHp": "0" },
+        { "job": "whm", "bossHp": "0" },
+        { "job": "sch", "bossHp": "0" },
+        { "job": "ast", "bossHp": "0" },
+        { "job": "mnk", "bossHp": "0" },
+        { "job": "drg", "bossHp": "0" },
+        { "job": "nin", "bossHp": "0" },
+        { "job": "sam", "bossHp": "0" },
+        { "job": "brd", "bossHp": "0" },
+        { "job": "mch", "bossHp": "0" },
+        { "job": "dnc", "bossHp": "0" },
+        { "job": "blm", "bossHp": "0" },
+        { "job": "smn", "bossHp": "0" },
+        { "job": "rdm", "bossHp": "0" }
+      ]
     }
   ]
 }
