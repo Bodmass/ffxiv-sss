@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  padding: 1rem;
+  padding: 1rem 0;
   user-select: none;
 }
 
@@ -17,7 +17,7 @@
 }
 
 .jobicon img {
-  width: 100%;
+  width: 55px;
   transform: scale(0.9);
   transition: transform 0.2s ease-in-out;
   cursor: pointer;
