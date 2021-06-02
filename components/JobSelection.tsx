@@ -81,6 +81,13 @@ function JobButtons() {
             jobSelected={jobSelected}
             setJobSelected={setJobSelected}
           />
+          <Button
+            job="sge"
+            fullname="Sage"
+            selectJob={selectJob}
+            jobSelected={jobSelected}
+            setJobSelected={setJobSelected}
+          />
         </div>
         <div className={styles.jobroles}>
           <Button
@@ -107,6 +114,13 @@ function JobButtons() {
           <Button
             job="sam"
             fullname="Samurai"
+            selectJob={selectJob}
+            jobSelected={jobSelected}
+            setJobSelected={setJobSelected}
+          />
+          <Button
+            job="rpr"
+            fullname="Reaper"
             selectJob={selectJob}
             jobSelected={jobSelected}
             setJobSelected={setJobSelected}
