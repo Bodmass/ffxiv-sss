@@ -20,10 +20,16 @@ export default function Home() {
           <p style={{ textAlign: 'center' }}>
             <b>Updated for Patch 5.5 (13/04/2021)</b>
           </p>
-          <p>
-            <i>Due to the Level 51-80 Stat Squish, the numbers on the calculator are now inaccurate.</i>
+          <p style={{ color: 'red' }}>
+            <i>
+              <b>Due to the Level 51-80 Stat Squish, the numbers on the calculator are now inaccurate.</b>
+            </i>
           </p>
-          <p>Please be patient for the 6.0 Update</p>
+          <p style={{ color: 'red' }}>
+            <i>
+              <b>Please be patient for the 6.0 Update</b>
+            </i>
+          </p>
         </body>
       </div>
       <Calculator />
