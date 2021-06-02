@@ -129,7 +129,7 @@ const BossSelection = () => {
       <ButtonGroup style={{ height: '32px' }} aria-label="outlined primary button group" fullWidth>
         <Button
           style={{
-            background: expansion === 'Endwalker' ? '#476997' : '#748f9b',
+            background: expansion === 'Endwalker' ? '#202d3f' : '#476997',
             fontWeight: 'bold',
             color: expansion === 'Endwalker' ? 'white' : 'black',
           }}
