@@ -115,7 +115,7 @@ function BossMenu({ selectedIndex, setSelectedIndex }) {
 }
 
 const BossSelection = () => {
-  const [expansion, setExpansion] = useState('Shadowbringers')
+  const [expansion, setExpansion] = useState('Endwalker')
   const [selectedIndex, setSelectedIndex] = useState(1)
 
   useMemo(() => {
@@ -127,6 +127,16 @@ const BossSelection = () => {
     <div>
       <p>Expansion:</p>
       <ButtonGroup style={{ height: '32px' }} aria-label="outlined primary button group" fullWidth>
+        <Button
+          style={{
+            background: expansion === 'Endwalker' ? '#476997' : '#748f9b',
+            fontWeight: 'bold',
+            color: expansion === 'Endwalker' ? 'white' : 'black',
+          }}
+          onClick={() => setExpansion('Endwalker')}
+        >
+          Endwalker
+        </Button>
         <Button
           style={{
             background: expansion === 'Shadowbringers' ? '#2e264a' : '#6654a5',
