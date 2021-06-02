@@ -16,9 +16,15 @@ export default function Home() {
       </Head>
       <Header />
       <div className="updateDetails">
-        <p>
-          <b>Updated for Patch 5.5 (13/04/2021)</b>
-        </p>
+        <body>
+          <p style={{ textAlign: 'center' }}>
+            <b>Updated for Patch 5.5 (13/04/2021)</b>
+          </p>
+          <p>
+            <i>Due to the Level 51-80 Stat Squish, the numbers on the calculator are now inaccurate.</i>
+          </p>
+          <p>Please be patient for the 6.0 Update</p>
+        </body>
       </div>
       <Calculator />
     </div>
