@@ -1,4 +1,5 @@
 import { FaGithub, FaGlobe, FaTwitter } from 'react-icons/fa'
+import { SiKoFi } from 'react-icons/si'
 import styles from './header.module.css'
 
 function HeaderList() {
@@ -19,6 +20,9 @@ function HeaderList() {
       </HeaderIcon>
       <HeaderIcon link="https://twitter.com/bodmassad">
         <FaTwitter />
+      </HeaderIcon>
+      <HeaderIcon link="https://ko-fi.com/bodmass">
+        <SiKoFi />
       </HeaderIcon>
     </div>
   )

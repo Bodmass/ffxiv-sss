@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Header from '../components/Header'
 import Calculator from '../components/Calculator'
+import Footer from '../components/Footer'
 
 export default function Home() {
   return (
@@ -16,11 +17,24 @@ export default function Home() {
       </Head>
       <Header />
       <div className="updateDetails">
-        <p>
-          <b>Updated for Patch 5.5 (13/04/2021)</b>
-        </p>
+        <body>
+          <p style={{ textAlign: 'center' }}>
+            <b>Updated for Patch 5.5 (13/04/2021)</b>
+          </p>
+          <p style={{ color: 'red' }}>
+            <i>
+              <b>Due to the Level 51-80 Stat Squish, the numbers on the calculator are now inaccurate.</b>
+            </i>
+          </p>
+          <p style={{ color: 'red' }}>
+            <i>
+              <b>Please be patient for the 6.0 Update</b>
+            </i>
+          </p>
+        </body>
       </div>
       <Calculator />
+      <Footer />
     </div>
   )
 }

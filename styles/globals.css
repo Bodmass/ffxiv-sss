@@ -20,8 +20,9 @@ a {
 .updateDetails {
   display: flex;
   justify-content: center;
-  height: 0;
+  height: auto;
   padding-top: 2rem;
   padding-bottom: 0.5rem;
+  padding: 0 5vw;
   user-select: none;
 }
