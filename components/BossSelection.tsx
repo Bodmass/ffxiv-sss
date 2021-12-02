@@ -131,11 +131,34 @@ const BossSelection = () => {
           style={{
             background: expansion === 'Endwalker' ? '#202d3f' : '#476997',
             fontWeight: 'bold',
-            color: expansion === 'Endwalker' ? 'white' : 'black',
+            color: expansion === 'Endwalker' ? '#e5e4e2' : 'black',
           }}
           onClick={() => setExpansion('Endwalker')}
         >
           Endwalker
+        </Button>
+      </ButtonGroup>
+      <br />
+      <ButtonGroup style={{ height: '32px' }} aria-label="outlined primary button group" fullWidth>
+        <Button
+          style={{
+            background: expansion === 'Heavensward' ? '#123140' : '#368db5',
+            fontWeight: 'bold',
+            color: expansion === 'Heavensward' ? 'white' : 'black',
+          }}
+          onClick={() => setExpansion('Heavensward')}
+        >
+          HW
+        </Button>
+        <Button
+          style={{
+            background: expansion === 'Stormblood' ? '#736021' : '#fbd149',
+            fontWeight: 'bold',
+            color: expansion === 'Stormblood' ? 'white' : 'black',
+          }}
+          onClick={() => setExpansion('Stormblood')}
+        >
+          SB
         </Button>
         <Button
           style={{
@@ -145,30 +168,7 @@ const BossSelection = () => {
           }}
           onClick={() => setExpansion('Shadowbringers')}
         >
-          Shadowbringers
-        </Button>
-      </ButtonGroup>
-      <br />
-      <ButtonGroup style={{ height: '32px' }} aria-label="outlined primary button group" fullWidth>
-        <Button
-          style={{
-            background: expansion === 'Stormblood' ? '#736021' : '#fbd149',
-            fontWeight: 'bold',
-            color: expansion === 'Stormblood' ? 'white' : 'black',
-          }}
-          onClick={() => setExpansion('Stormblood')}
-        >
-          Stormblood
-        </Button>
-        <Button
-          style={{
-            background: expansion === 'Heavensward' ? '#123140' : '#368db5',
-            fontWeight: 'bold',
-            color: expansion === 'Heavensward' ? 'white' : 'black',
-          }}
-          onClick={() => setExpansion('Heavensward')}
-        >
-          Heavensward
+          ShB
         </Button>
       </ButtonGroup>
       <p />
