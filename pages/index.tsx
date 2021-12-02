@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Header from '../components/Header'
 import Calculator from '../components/Calculator'
+import Footer from '../components/Footer'
 
 export default function Home() {
   return (
@@ -33,6 +34,7 @@ export default function Home() {
         </body>
       </div>
       <Calculator />
+      <Footer />
     </div>
   )
 }
