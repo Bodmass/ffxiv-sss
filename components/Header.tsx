@@ -1,15 +1,23 @@
 import { FaGithub, FaGlobe, FaTwitter } from 'react-icons/fa'
-import { SiKoFi } from 'react-icons/si'
 import styles from './header.module.css'
 
+function HeaderIcon({ children, link }) {
+  return (
+    <div className={styles.icon}>
+      <a href={link}> {children}</a>
+    </div>
+  )
+}
+
+function HeaderImage({ children, link }) {
+  return (
+    <div className={styles.iconimg}>
+      <a href={link}> {children}</a>
+    </div>
+  )
+}
+
 function HeaderList() {
-  function HeaderIcon({ children, link }) {
-    return (
-      <div className={styles.icon}>
-        <a href={link}> {children}</a>
-      </div>
-    )
-  }
   return (
     <div className={styles.icons}>
       <HeaderIcon link="https://azizarar.com">
@@ -21,9 +29,9 @@ function HeaderList() {
       <HeaderIcon link="https://twitter.com/bodmassad">
         <FaTwitter />
       </HeaderIcon>
-      <HeaderIcon link="https://ko-fi.com/bodmass">
-        <SiKoFi />
-      </HeaderIcon>
+      <HeaderImage link="https://ko-fi.com/bodmass">
+        <img src="../images/kofi.png" alt="" height="24px" />
+      </HeaderImage>
     </div>
   )
 }
