@@ -16,7 +16,7 @@ function Button({ job, fullname, setJobSelected, selectJob, jobSelected }) {
         tabIndex={0}
         style={{ filter: jobSelected === fullname ? 'grayscale(0)' : 'grayscale(1)' }}
       >
-        <img src={`../images/job-icons/${job}.png`} alt="" draggable="false" />
+        <img src={`../images/job-icons/${job}.png`} alt={`${fullname}`} title={`${fullname}`} draggable="false" />
       </a>
     </div>
   )
