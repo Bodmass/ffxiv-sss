@@ -1,0 +1,26 @@
+.footer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 4rem;
+  margin: 1rem 0 0 0;
+  bottom: 0;
+  font-size: 0.9rem;
+  line-height: 1.25rem;
+}
+
+@media screen and (max-width: 600px) {
+  .footer {
+    position: fixed;
+    background: black;
+    height: 4rem;
+    border-top: 1px solid #202020;
+    font-size: 0.6rem;
+    line-height: 0.8rem;
+    padding: 0 10vw;
+    text-align: center;
+  }
+}

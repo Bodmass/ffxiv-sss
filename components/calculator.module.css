@@ -1,8 +1,6 @@
 .content {
-  padding-top: 7rem;
   display: flex;
   justify-content: center;
-
   width: 100%;
 }
 
@@ -15,6 +13,7 @@
 @media only screen and (max-width: 600px) {
   .container {
     flex-direction: column;
+    margin-bottom: 6rem;
   }
 }
 
