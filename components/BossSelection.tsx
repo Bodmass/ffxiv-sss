@@ -139,10 +139,11 @@ const BossSelection = () => {
         </Button>
       </ButtonGroup>
       <br />
-      <ButtonGroup style={{ height: '32px' }} aria-label="outlined primary button group" fullWidth>
+      <ButtonGroup style={{ height: '32px' }} aria-label="outlined primary button group" fullWidth disabled>
         <Button
           style={{
-            background: expansion === 'Heavensward' ? '#123140' : '#368db5',
+            // background: expansion === 'Heavensward' ? '#123140' : '#368db5',
+            background: expansion === 'Heavensward' ? '#d3d3d3' : '#d3d3d3',
             fontWeight: 'bold',
             color: expansion === 'Heavensward' ? 'white' : 'black',
           }}
@@ -152,7 +153,8 @@ const BossSelection = () => {
         </Button>
         <Button
           style={{
-            background: expansion === 'Stormblood' ? '#736021' : '#fbd149',
+            // background: expansion === 'Stormblood' ? '#736021' : '#fbd149',
+            background: expansion === 'Stormblood' ? '#d3d3d3' : '#d3d3d3',
             fontWeight: 'bold',
             color: expansion === 'Stormblood' ? 'white' : 'black',
           }}
@@ -162,7 +164,8 @@ const BossSelection = () => {
         </Button>
         <Button
           style={{
-            background: expansion === 'Shadowbringers' ? '#2e264a' : '#6654a5',
+            // background: expansion === 'Shadowbringers' ? '#2e264a' : '#6654a5',
+            background: expansion === 'Shadowbringers' ? '#d3d3d3' : '#d3d3d3',
             fontWeight: 'bold',
             color: expansion === 'Shadowbringers' ? 'white' : 'black',
           }}
