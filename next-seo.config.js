@@ -1,5 +1,6 @@
 const title = 'FFXIV Stone, Sky, Sea Calculator'
-const description = 'Final Fantasy XIV Endwalker DPS Calculator for Stone, Sky, Sea. Updated for Patch 6.0 (03/12/2021)'
+const description =
+  'Final Fantasy XIV Endwalker DPS Calculator for Stone, Sky, Sea. Updated for Patch 6.01 (21/12/2021)'
 const url = 'https://ffxiv.azizarar.com/'
 const images = [
   {
