@@ -7,6 +7,7 @@ import MenuItem from '@material-ui/core/MenuItem'
 import Button from '@material-ui/core/Button'
 import ButtonGroup from '@material-ui/core/ButtonGroup'
 import Menu from '@material-ui/core/Menu'
+import { Tooltip } from '@material-ui/core'
 import data from '../public/bossdata/data.json'
 import UserContext from './UserContext'
 
@@ -115,7 +116,7 @@ function BossMenu({ selectedIndex, setSelectedIndex }) {
 }
 
 const BossSelection = () => {
-  const [expansion, setExpansion] = useState('Shadowbringers')
+  const [expansion, setExpansion] = useState('Endwalker')
   const [selectedIndex, setSelectedIndex] = useState(1)
 
   useMemo(() => {
@@ -129,38 +130,53 @@ const BossSelection = () => {
       <ButtonGroup style={{ height: '32px' }} aria-label="outlined primary button group" fullWidth>
         <Button
           style={{
-            background: expansion === 'Shadowbringers' ? '#2e264a' : '#6654a5',
+            background: expansion === 'Endwalker' ? '#202d3f' : '#476997',
             fontWeight: 'bold',
-            color: expansion === 'Shadowbringers' ? 'white' : 'black',
+            color: expansion === 'Endwalker' ? '#e5e4e2' : 'black',
           }}
-          onClick={() => setExpansion('Shadowbringers')}
+          onClick={() => setExpansion('Endwalker')}
         >
-          Shadowbringers
+          Endwalker
         </Button>
       </ButtonGroup>
       <br />
-      <ButtonGroup style={{ height: '32px' }} aria-label="outlined primary button group" fullWidth>
-        <Button
-          style={{
-            background: expansion === 'Stormblood' ? '#736021' : '#fbd149',
-            fontWeight: 'bold',
-            color: expansion === 'Stormblood' ? 'white' : 'black',
-          }}
-          onClick={() => setExpansion('Stormblood')}
-        >
-          Stormblood
-        </Button>
-        <Button
-          style={{
-            background: expansion === 'Heavensward' ? '#123140' : '#368db5',
-            fontWeight: 'bold',
-            color: expansion === 'Heavensward' ? 'white' : 'black',
-          }}
-          onClick={() => setExpansion('Heavensward')}
-        >
-          Heavensward
-        </Button>
-      </ButtonGroup>
+      <Tooltip title="Legacy Content is Temporarily Disabled." arrow>
+        <ButtonGroup style={{ height: '32px' }} aria-label="outlined primary button group" fullWidth disabled>
+          <Button
+            style={{
+              // background: expansion === 'Heavensward' ? '#123140' : '#368db5',
+              background: expansion === 'Heavensward' ? '#d3d3d3' : '#d3d3d3',
+              fontWeight: 'bold',
+              color: expansion === 'Heavensward' ? 'white' : 'black',
+            }}
+            onClick={() => setExpansion('Heavensward')}
+          >
+            HW
+          </Button>
+          <Button
+            style={{
+              // background: expansion === 'Stormblood' ? '#736021' : '#fbd149',
+              background: expansion === 'Stormblood' ? '#d3d3d3' : '#d3d3d3',
+              fontWeight: 'bold',
+              color: expansion === 'Stormblood' ? 'white' : 'black',
+            }}
+            onClick={() => setExpansion('Stormblood')}
+          >
+            SB
+          </Button>
+          <Button
+            style={{
+              // background: expansion === 'Shadowbringers' ? '#2e264a' : '#6654a5',
+              background: expansion === 'Shadowbringers' ? '#d3d3d3' : '#d3d3d3',
+              fontWeight: 'bold',
+              color: expansion === 'Shadowbringers' ? 'white' : 'black',
+            }}
+            onClick={() => setExpansion('Shadowbringers')}
+          >
+            ShB
+          </Button>
+        </ButtonGroup>
+      </Tooltip>
       <p />
 
       <BossMenu selectedIndex={selectedIndex} setSelectedIndex={setSelectedIndex} />

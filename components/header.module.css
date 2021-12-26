@@ -33,9 +33,15 @@
 
 .icon {
   text-align: center;
-  margin: 0rem 0.2rem;
+  margin: 0rem 0.4rem;
   width: 32px;
   height: 32px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.iconimg {
+  height: 32px;
+  margin: 0rem 0.4rem;
   transition: transform 0.2s ease-in-out;
 }
 
@@ -43,6 +49,7 @@
   font-size: 1.5rem;
 }
 
-.icon:hover {
+.icon:hover,
+.iconimg:hover {
   transform: scale(1.1);
 }

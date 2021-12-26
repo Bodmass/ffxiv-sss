@@ -10,7 +10,7 @@ export default function Home() {
         <title>FFXIV Stone, Sky, Sea Calculator</title>
         <meta
           name="description"
-          content="Final Fantasy XIV Shadowbringers DPS Calculator for Stone, Sky, Sea. Updated for Patch 5.5 (13/04/2021)"
+          content="Final Fantasy XIV Endwalker DPS Calculator for Stone, Sky, Sea. Updated for Patch 6.01 (21/12/2021)"
         />
         <meta name="keywords" content="FFXIV, Final Fantasy XIV, Final Fantasy 14, DPS, Calculator, Stone Sky Sea" />
         <link rel="icon" href="/favicon.ico" />
@@ -18,18 +18,8 @@ export default function Home() {
       <Header />
       <div className="updateDetails">
         <body>
-          <p style={{ textAlign: 'center' }}>
-            <b>Updated for Patch 5.5 (13/04/2021)</b>
-          </p>
-          <p style={{ color: 'red' }}>
-            <i>
-              <b>Due to the Level 51-80 Stat Squish, the numbers on the calculator are now inaccurate.</b>
-            </i>
-          </p>
-          <p style={{ color: 'red' }}>
-            <i>
-              <b>Please be patient for the 6.0 Update</b>
-            </i>
+          <p>
+            <b>Updated for Patch 6.01 (21/12/2021)</b>
           </p>
         </body>
       </div>

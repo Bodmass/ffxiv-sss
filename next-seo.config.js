@@ -1,6 +1,6 @@
 const title = 'FFXIV Stone, Sky, Sea Calculator'
 const description =
-  'Final Fantasy XIV Shadowbringers DPS Calculator for Stone, Sky, Sea. Updated for Patch 5.5 (13/04/2021)'
+  'Final Fantasy XIV Endwalker DPS Calculator for Stone, Sky, Sea. Updated for Patch 6.01 (21/12/2021)'
 const url = 'https://ffxiv.azizarar.com/'
 const images = [
   {
@@ -11,7 +11,7 @@ const images = [
   },
 ]
 const tags = [
-  'FFXIV, Final Fantasy, Final Fantasy XIV, XIV, Final Fantasy 14, 14, Shadowbringers, Stone Sky Sea, Stone, Sky, Sea, SSS, DPS, DPS Calculator, Calculator, ',
+  'FFXIV, Final Fantasy, Final Fantasy XIV, XIV, Final Fantasy 14, 14, Endwalker, Shadowbringers, Stone Sky Sea, Stone, Sky, Sea, SSS, DPS, DPS Calculator, Calculator, ',
 ]
 
 module.exports = {
