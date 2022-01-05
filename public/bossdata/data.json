@@ -1871,6 +1871,110 @@
         { "job": "smn", "bossHp": "943888" },
         { "job": "rdm", "bossHp": "948040" }
       ]
+    },
+    {
+      "bossName": "The First Circle (Savage)",
+      "type": "Raid",
+      "expansion": "Endwalker",
+      "jobs": [
+        { "job": "pld", "bossHp": "758432" },
+        { "job": "war", "bossHp": "763276" },
+        { "job": "drk", "bossHp": "781268" },
+        { "job": "gnb", "bossHp": "788188" },
+        { "job": "whm", "bossHp": "720372" },
+        { "job": "sch", "bossHp": "638024" },
+        { "job": "ast", "bossHp": "584740" },
+        { "job": "sge", "bossHp": "707916" },
+        { "job": "mnk", "bossHp": "1142492" },
+        { "job": "drg", "bossHp": "1117580" },
+        { "job": "nin", "bossHp": "1063604" },
+        { "job": "sam", "bossHp": "1164636" },
+        { "job": "rpr", "bossHp": "1146644" },
+        { "job": "brd", "bossHp": "957728" },
+        { "job": "mch", "bossHp": "1078828" },
+        { "job": "dnc", "bossHp": "814484" },
+        { "job": "blm", "bossHp": "1205464" },
+        { "job": "smn", "bossHp": "1066372" },
+        { "job": "rdm", "bossHp": "1071908" }
+      ]
+    },
+    {
+      "bossName": "The Second Circle (Savage)",
+      "type": "Raid",
+      "expansion": "Endwalker",
+      "jobs": [
+        { "job": "pld", "bossHp": "782652" },
+        { "job": "war", "bossHp": "787496" },
+        { "job": "drk", "bossHp": "806872" },
+        { "job": "gnb", "bossHp": "813100" },
+        { "job": "whm", "bossHp": "743208" },
+        { "job": "sch", "bossHp": "658784" },
+        { "job": "ast", "bossHp": "603424" },
+        { "job": "sge", "bossHp": "730752" },
+        { "job": "mnk", "bossHp": "1179168" },
+        { "job": "drg", "bossHp": "1152209" },
+        { "job": "nin", "bossHp": "1098204" },
+        { "job": "sam", "bossHp": "1202696" },
+        { "job": "rpr", "bossHp": "1183320" },
+        { "job": "brd", "bossHp": "988868" },
+        { "job": "mch", "bossHp": "1113428" },
+        { "job": "dnc", "bossHp": "840780" },
+        { "job": "blm", "bossHp": "1244216" },
+        { "job": "smn", "bossHp": "1100972" },
+        { "job": "rdm", "bossHp": "1106508" }
+      ]
+    },
+    {
+      "bossName": "The Third Circle (Savage)",
+      "type": "Raid",
+      "expansion": "Endwalker",
+      "jobs": [
+        { "job": "pld", "bossHp": "806872" },
+        { "job": "war", "bossHp": "812408" },
+        { "job": "drk", "bossHp": "831784" },
+        { "job": "gnb", "bossHp": "838704" },
+        { "job": "whm", "bossHp": "766736" },
+        { "job": "sch", "bossHp": "678852" },
+        { "job": "ast", "bossHp": "622108" },
+        { "job": "sge", "bossHp": "753588" },
+        { "job": "mnk", "bossHp": "1215844" },
+        { "job": "drg", "bossHp": "1189548" },
+        { "job": "nin", "bossHp": "1132804" },
+        { "job": "sam", "bossHp": "1240064" },
+        { "job": "rpr", "bossHp": "1220688" },
+        { "job": "brd", "bossHp": "1019316" },
+        { "job": "mch", "bossHp": "1148720" },
+        { "job": "dnc", "bossHp": "866384" },
+        { "job": "blm", "bossHp": "1282968" },
+        { "job": "smn", "bossHp": "1135572" },
+        { "job": "rdm", "bossHp": "1141108" }
+      ]
+    },
+    {
+      "bossName": "The Fourth Circle (Savage)",
+      "type": "Raid",
+      "expansion": "Endwalker",
+      "jobs": [
+        { "job": "pld", "bossHp": "862232" },
+        { "job": "war", "bossHp": "868460" },
+        { "job": "drk", "bossHp": "889220" },
+        { "job": "gnb", "bossHp": "896140" },
+        { "job": "whm", "bossHp": "819328" },
+        { "job": "sch", "bossHp": "725908" },
+        { "job": "ast", "bossHp": "665012" },
+        { "job": "sge", "bossHp": "804796" },
+        { "job": "mnk", "bossHp": "1299576" },
+        { "job": "drg", "bossHp": "1271204" },
+        { "job": "nin", "bossHp": "1210308" },
+        { "job": "sam", "bossHp": "1325180" },
+        { "job": "rpr", "bossHp": "1304420" },
+        { "job": "brd", "bossHp": "1089900" },
+        { "job": "mch", "bossHp": "1227608" },
+        { "job": "dnc", "bossHp": "926588" },
+        { "job": "blm", "bossHp": "1371544" },
+        { "job": "smn", "bossHp": "1213076" },
+        { "job": "rdm", "bossHp": "1219304" }
+      ]
     }
   ]
 }
