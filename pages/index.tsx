@@ -19,7 +19,7 @@ export default function Home() {
       <div className="updateDetails">
         <body>
           <p>
-            <b>Updated for Patch 6.01 (21/12/2021)</b>
+            <b>Updated for Patch 6.05 (04/01/2022)</b>
           </p>
         </body>
       </div>
