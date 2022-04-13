@@ -1769,6 +1769,32 @@
       ]
     },
     {
+      "bossName": "Level 90 (i560 Synced)",
+      "type": "Trial",
+      "expansion": "Endwalker",
+      "jobs": [
+        { "job": "pld", "bossHp": "703072" },
+        { "job": "war", "bossHp": "691308" },
+        { "job": "drk", "bossHp": "700304" },
+        { "job": "gnb", "bossHp": "718988" },
+        { "job": "whm", "bossHp": "631104" },
+        { "job": "sch", "bossHp": "558444" },
+        { "job": "ast", "bossHp": "512080" },
+        { "job": "sge", "bossHp": "633180" },
+        { "job": "mnk", "bossHp": "1008936" },
+        { "job": "drg", "bossHp": "1051840" },
+        { "job": "nin", "bossHp": "1038692" },
+        { "job": "sam", "bossHp": "1067756" },
+        { "job": "rpr", "bossHp": "1046996" },
+        { "job": "brd", "bossHp": "851160" },
+        { "job": "mch", "bossHp": "1004092" },
+        { "job": "dnc", "bossHp": "825556" },
+        { "job": "blm", "bossHp": "1123116" },
+        { "job": "smn", "bossHp": "1002016" },
+        { "job": "rdm", "bossHp": "966724" }
+      ]
+    },
+    {
       "bossName": "The Final Day (Normal)",
       "type": "Trial",
       "expansion": "Endwalker",
@@ -1844,6 +1870,32 @@
         { "job": "blm", "bossHp": "1097512" },
         { "job": "smn", "bossHp": "970876" },
         { "job": "rdm", "bossHp": "975720" }
+      ]
+    },
+    {
+      "bossName": "Endsinger (Extreme)",
+      "type": "Trial",
+      "expansion": "Endwalker",
+      "jobs": [
+        { "job": "pld", "bossHp": "798568" },
+        { "job": "war", "bossHp": "804104" },
+        { "job": "drk", "bossHp": "823480" },
+        { "job": "gnb", "bossHp": "829708" },
+        { "job": "whm", "bossHp": "758432" },
+        { "job": "sch", "bossHp": "671932" },
+        { "job": "ast", "bossHp": "615880" },
+        { "job": "sge", "bossHp": "745284" },
+        { "job": "mnk", "bossHp": "1203388" },
+        { "job": "drg", "bossHp": "1177092" },
+        { "job": "nin", "bossHp": "1120348" },
+        { "job": "sam", "bossHp": "1226916" },
+        { "job": "rpr", "bossHp": "1207450" },
+        { "job": "brd", "bossHp": "1008946" },
+        { "job": "mch", "bossHp": "1136264" },
+        { "job": "dnc", "bossHp": "857388" },
+        { "job": "blm", "bossHp": "1269820" },
+        { "job": "smn", "bossHp": "1123116" },
+        { "job": "rdm", "bossHp": "1128652" }
       ]
     },
     {
