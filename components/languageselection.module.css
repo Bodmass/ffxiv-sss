@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.innercontainer {
+  display: flex;
+  width: 100%;
+  max-width: 600px;
+  justify-content: flex-end;
+}
+
+.button {
+  display: flex;
+  margin: 1px 3px;
+}
+
+.icon img {
+  width: 20px;
+  transform: scale(1);
+  transition: transform 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.icon:focus {
+  outline: none;
+}
+
+.icon:hover img {
+  transform: scale(0.9);
+}
+
+@media only screen and (max-width: 600px) {
+  .innercontainer {
+    max-width: 300px;
+  }
+}

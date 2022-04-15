@@ -18,7 +18,7 @@ const allBosses = []
 const trialBosses = []
 const raidBosses = []
 
-function populateOptions(expansion) {
+function populateOptions(expansion, language) {
   const { selectBoss } = useContext(UserContext)
   allBosses.length = 0
   trialBosses.length = 0
@@ -28,10 +28,34 @@ function populateOptions(expansion) {
   bossData.forEach((boss) => {
     if (boss.expansion === expansion) {
       if (boss.type === 'Trial') {
-        trialBosses.push(boss.bossName)
+        switch (language) {
+          case 'jp':
+            trialBosses.push(boss.bossNameJP)
+            break
+          case 'fr':
+            trialBosses.push(boss.bossNameFR)
+            break
+          case 'de':
+            trialBosses.push(boss.bossNameDE)
+            break
+          default:
+            trialBosses.push(boss.bossName)
+        }
       }
       if (boss.type === 'Raid') {
-        raidBosses.push(boss.bossName)
+        switch (language) {
+          case 'jp':
+            raidBosses.push(boss.bossNameJP)
+            break
+          case 'fr':
+            raidBosses.push(boss.bossNameFR)
+            break
+          case 'de':
+            raidBosses.push(boss.bossNameDE)
+            break
+          default:
+            raidBosses.push(boss.bossName)
+        }
       }
     }
   })
@@ -69,7 +93,7 @@ function BossMenu({ selectedIndex, setSelectedIndex }) {
     <div style={{ borderRadius: '0.5rem', background: 'white', color: 'black', fontSize: '1.2rem' }}>
       <List component="nav">
         <ListItem button onClick={handleClickListItem}>
-          <ListItemText primary={allBosses[selectedIndex]} />
+          <ListItemText primary={allBosses[selectedIndex]} disableTypography style={{ fontSize: '0.75rem' }} />
           <FaCaretDown />
         </ListItem>
       </List>
@@ -105,6 +129,8 @@ function BossMenu({ selectedIndex, setSelectedIndex }) {
             onClick={(event) => handleMenuItemClick(event, index)}
             style={{
               justifyContent: index === 0 || index === trialBosses.length ? 'center' : '',
+              whiteSpace: 'pre-wrap',
+              fontSize: '0.8rem',
             }}
           >
             {option}
@@ -117,12 +143,18 @@ function BossMenu({ selectedIndex, setSelectedIndex }) {
 
 const BossSelection = () => {
   const [expansion, setExpansion] = useState('Endwalker')
+  const { lang } = useContext(UserContext)
   const [selectedIndex, setSelectedIndex] = useState(1)
 
   useMemo(() => {
-    populateOptions(expansion)
+    populateOptions(expansion, lang)
     setSelectedIndex(1)
   }, [expansion])
+
+  useMemo(() => {
+    populateOptions(expansion, lang)
+    setSelectedIndex(1)
+  }, [lang])
 
   return (
     <div>

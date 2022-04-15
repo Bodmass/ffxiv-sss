@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Header from '../components/Header'
 import Calculator from '../components/Calculator'
 import Footer from '../components/Footer'
+import LanguageSelection from '../components/LanguageSelection'
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
           </p>
         </body>
       </div>
+      <LanguageSelection />
       <Calculator />
       <Footer />
     </div>

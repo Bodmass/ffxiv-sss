@@ -26,6 +26,7 @@ export default class MyApp extends App {
   state = {
     job: null,
     boss: null,
+    lang: null,
   }
 
   selectBoss = (selectedBoss) => {
@@ -40,13 +41,26 @@ export default class MyApp extends App {
     })
   }
 
+  selectLanguage = (selectedLanguage) => {
+    this.setState({
+      lang: selectedLanguage,
+    })
+  }
+
   render() {
     const { Component, pageProps } = this.props
 
     return (
       <Analytics>
         <UserContext.Provider
-          value={{ job: this.state.job, selectJob: this.selectJob, boss: this.state.boss, selectBoss: this.selectBoss }}
+          value={{
+            job: this.state.job,
+            selectJob: this.selectJob,
+            boss: this.state.boss,
+            selectBoss: this.selectBoss,
+            lang: this.state.lang,
+            selectLanguage: this.selectLanguage,
+          }}
         >
           <DefaultSeo {...SEO} />
           <Component {...pageProps} />
