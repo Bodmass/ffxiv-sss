@@ -2,6 +2,9 @@
   "boss": [
     {
       "bossName": "Basic",
+      "bossNameJP": "?",
+      "bossNameDE": "?",
+      "bossNameFR": "?",
       "type": "Raid",
       "expansion": "Heavensward",
       "jobs": [
@@ -28,6 +31,9 @@
     },
     {
       "bossName": "Gordias (Normal)",
+      "bossNameJP": "?",
+      "bossNameDE": "?",
+      "bossNameFR": "?",
       "type": "Raid",
       "expansion": "Heavensward",
       "jobs": [
@@ -54,6 +60,9 @@
     },
     {
       "bossName": "Midas (Normal)",
+      "bossNameJP": "?",
+      "bossNameDE": "?",
+      "bossNameFR": "?",
       "type": "Raid",
       "expansion": "Heavensward",
       "jobs": [
@@ -80,6 +89,9 @@
     },
     {
       "bossName": "Creator (Normal)",
+      "bossNameJP": "?",
+      "bossNameDE": "?",
+      "bossNameFR": "?",
       "type": "Raid",
       "expansion": "Heavensward",
       "jobs": [
@@ -106,6 +118,9 @@
     },
     {
       "bossName": "Bismark (Extreme)",
+      "bossNameJP": "?",
+      "bossNameDE": "?",
+      "bossNameFR": "?",
       "type": "Trial",
       "expansion": "Heavensward",
       "jobs": [
@@ -132,6 +147,9 @@
     },
     {
       "bossName": "Thordan (Extreme)",
+      "bossNameJP": "?",
+      "bossNameDE": "?",
+      "bossNameFR": "?",
       "type": "Trial",
       "expansion": "Heavensward",
       "jobs": [
@@ -158,6 +176,9 @@
     },
     {
       "bossName": "Sephirot (Extreme)",
+      "bossNameJP": "?",
+      "bossNameDE": "?",
+      "bossNameFR": "?",
       "type": "Trial",
       "expansion": "Heavensward",
       "jobs": [
@@ -184,6 +205,9 @@
     },
     {
       "bossName": "Nidhogg (Extreme)",
+      "bossNameJP": "?",
+      "bossNameDE": "?",
+      "bossNameFR": "?",
       "type": "Trial",
       "expansion": "Heavensward",
       "jobs": [
@@ -210,6 +234,9 @@
     },
     {
       "bossName": "Sophia (Extreme)",
+      "bossNameJP": "?",
+      "bossNameDE": "?",
+      "bossNameFR": "?",
       "type": "Trial",
       "expansion": "Heavensward",
       "jobs": [
@@ -236,6 +263,9 @@
     },
     {
       "bossName": "Zurvan (Extreme)",
+      "bossNameJP": "?",
+      "bossNameDE": "?",
+      "bossNameFR": "?",
       "type": "Trial",
       "expansion": "Heavensward",
       "jobs": [
@@ -262,6 +292,9 @@
     },
     {
       "bossName": "Alex 1 (Savage)",
+      "bossNameJP": "?",
+      "bossNameDE": "?",
+      "bossNameFR": "?",
       "type": "Raid",
       "expansion": "Heavensward",
       "jobs": [
@@ -288,6 +321,9 @@
     },
     {
       "bossName": "Alex 2 (Savage)",
+      "bossNameJP": "?",
+      "bossNameDE": "?",
+      "bossNameFR": "?",
       "type": "Raid",
       "expansion": "Heavensward",
       "jobs": [
@@ -314,6 +350,9 @@
     },
     {
       "bossName": "Alex 3 (Savage)",
+      "bossNameJP": "?",
+      "bossNameDE": "?",
+      "bossNameFR": "?",
       "type": "Raid",
       "expansion": "Heavensward",
       "jobs": [
@@ -340,6 +379,9 @@
     },
     {
       "bossName": "Alex 4 (Savage)",
+      "bossNameJP": "?",
+      "bossNameDE": "?",
+      "bossNameFR": "?",
       "type": "Raid",
       "expansion": "Heavensward",
       "jobs": [
@@ -366,6 +408,9 @@
     },
     {
       "bossName": "Alex 5 (Savage)",
+      "bossNameJP": "?",
+      "bossNameDE": "?",
+      "bossNameFR": "?",
       "type": "Raid",
       "expansion": "Heavensward",
       "jobs": [
@@ -392,6 +437,9 @@
     },
     {
       "bossName": "Alex 6 (Savage)",
+      "bossNameJP": "?",
+      "bossNameDE": "?",
+      "bossNameFR": "?",
       "type": "Raid",
       "expansion": "Heavensward",
       "jobs": [
@@ -418,6 +466,9 @@
     },
     {
       "bossName": "Alex 7 (Savage)",
+      "bossNameJP": "?",
+      "bossNameDE": "?",
+      "bossNameFR": "?",
       "type": "Raid",
       "expansion": "Heavensward",
       "jobs": [
@@ -444,6 +495,9 @@
     },
     {
       "bossName": "Alex 8 (Savage)",
+      "bossNameJP": "?",
+      "bossNameDE": "?",
+      "bossNameFR": "?",
       "type": "Raid",
       "expansion": "Heavensward",
       "jobs": [
@@ -470,6 +524,9 @@
     },
     {
       "bossName": "Alex 9 (Savage)",
+      "bossNameJP": "?",
+      "bossNameDE": "?",
+      "bossNameFR": "?",
       "type": "Raid",
       "expansion": "Heavensward",
       "jobs": [
@@ -496,6 +553,9 @@
     },
     {
       "bossName": "Alex 10 (Savage)",
+      "bossNameJP": "?",
+      "bossNameDE": "?",
+      "bossNameFR": "?",
       "type": "Raid",
       "expansion": "Heavensward",
       "jobs": [
@@ -522,6 +582,9 @@
     },
     {
       "bossName": "Alex 11 (Savage)",
+      "bossNameJP": "?",
+      "bossNameDE": "?",
+      "bossNameFR": "?",
       "type": "Raid",
       "expansion": "Heavensward",
       "jobs": [
@@ -548,6 +611,9 @@
     },
     {
       "bossName": "Alex 12 (Savage)",
+      "bossNameJP": "?",
+      "bossNameDE": "?",
+      "bossNameFR": "?",
       "type": "Raid",
       "expansion": "Heavensward",
       "jobs": [
@@ -574,6 +640,9 @@
     },
     {
       "bossName": "Shinryu (Normal)",
+      "bossNameJP": "?",
+      "bossNameDE": "?",
+      "bossNameFR": "?",
       "type": "Trial",
       "expansion": "Stormblood",
       "jobs": [
@@ -600,6 +669,9 @@
     },
     {
       "bossName": "Deltascape (Normal)",
+      "bossNameJP": "?",
+      "bossNameDE": "?",
+      "bossNameFR": "?",
       "type": "Raid",
       "expansion": "Stormblood",
       "jobs": [
@@ -626,6 +698,9 @@
     },
     {
       "bossName": "Sigmascape (Normal)",
+      "bossNameJP": "?",
+      "bossNameDE": "?",
+      "bossNameFR": "?",
       "type": "Raid",
       "expansion": "Stormblood",
       "jobs": [
@@ -652,6 +727,9 @@
     },
     {
       "bossName": "Alphascape (Normal)",
+      "bossNameJP": "?",
+      "bossNameDE": "?",
+      "bossNameFR": "?",
       "type": "Raid",
       "expansion": "Stormblood",
       "jobs": [
@@ -678,6 +756,9 @@
     },
     {
       "bossName": "Susano (Extreme)",
+      "bossNameJP": "?",
+      "bossNameDE": "?",
+      "bossNameFR": "?",
       "type": "Trial",
       "expansion": "Stormblood",
       "jobs": [
@@ -704,6 +785,9 @@
     },
     {
       "bossName": "Lakshmi (Extreme)",
+      "bossNameJP": "?",
+      "bossNameDE": "?",
+      "bossNameFR": "?",
       "type": "Trial",
       "expansion": "Stormblood",
       "jobs": [
@@ -730,6 +814,9 @@
     },
     {
       "bossName": "Shinryu (Extreme)",
+      "bossNameJP": "?",
+      "bossNameDE": "?",
+      "bossNameFR": "?",
       "type": "Trial",
       "expansion": "Stormblood",
       "jobs": [
@@ -756,6 +843,9 @@
     },
     {
       "bossName": "Byakko (Extreme)",
+      "bossNameJP": "?",
+      "bossNameDE": "?",
+      "bossNameFR": "?",
       "type": "Trial",
       "expansion": "Stormblood",
       "jobs": [
@@ -782,6 +872,9 @@
     },
     {
       "bossName": "Tsukyomi (Extreme)",
+      "bossNameJP": "?",
+      "bossNameDE": "?",
+      "bossNameFR": "?",
       "type": "Trial",
       "expansion": "Stormblood",
       "jobs": [
@@ -808,6 +901,9 @@
     },
     {
       "bossName": "Suzaku (Extreme)",
+      "bossNameJP": "?",
+      "bossNameDE": "?",
+      "bossNameFR": "?",
       "type": "Trial",
       "expansion": "Stormblood",
       "jobs": [
@@ -834,6 +930,9 @@
     },
     {
       "bossName": "Seiryu (Extreme)",
+      "bossNameJP": "?",
+      "bossNameDE": "?",
+      "bossNameFR": "?",
       "type": "Trial",
       "expansion": "Stormblood",
       "jobs": [
@@ -860,6 +959,9 @@
     },
     {
       "bossName": "Deltascape V1.0 (Savage)",
+      "bossNameJP": "?",
+      "bossNameDE": "?",
+      "bossNameFR": "?",
       "type": "Raid",
       "expansion": "Stormblood",
       "jobs": [
@@ -886,6 +988,9 @@
     },
     {
       "bossName": "Deltascape V2.0 (Savage)",
+      "bossNameJP": "?",
+      "bossNameDE": "?",
+      "bossNameFR": "?",
       "type": "Raid",
       "expansion": "Stormblood",
       "jobs": [
@@ -912,6 +1017,9 @@
     },
     {
       "bossName": "Deltascape V3.0 (Savage)",
+      "bossNameJP": "?",
+      "bossNameDE": "?",
+      "bossNameFR": "?",
       "type": "Raid",
       "expansion": "Stormblood",
       "jobs": [
@@ -938,6 +1046,9 @@
     },
     {
       "bossName": "Deltascape V4.0 (Savage)",
+      "bossNameJP": "?",
+      "bossNameDE": "?",
+      "bossNameFR": "?",
       "type": "Raid",
       "expansion": "Stormblood",
       "jobs": [
@@ -964,6 +1075,9 @@
     },
     {
       "bossName": "Sigmascape V1.0 (Savage)",
+      "bossNameJP": "?",
+      "bossNameDE": "?",
+      "bossNameFR": "?",
       "type": "Raid",
       "expansion": "Stormblood",
       "jobs": [
@@ -990,6 +1104,9 @@
     },
     {
       "bossName": "Sigmascape V2.0 (Savage)",
+      "bossNameJP": "?",
+      "bossNameDE": "?",
+      "bossNameFR": "?",
       "type": "Raid",
       "expansion": "Stormblood",
       "jobs": [
@@ -1016,6 +1133,9 @@
     },
     {
       "bossName": "Sigmascape V3.0 (Savage)",
+      "bossNameJP": "?",
+      "bossNameDE": "?",
+      "bossNameFR": "?",
       "type": "Raid",
       "expansion": "Stormblood",
       "jobs": [
@@ -1042,6 +1162,9 @@
     },
     {
       "bossName": "Sigmascape V4.0 (Savage)",
+      "bossNameJP": "?",
+      "bossNameDE": "?",
+      "bossNameFR": "?",
       "type": "Raid",
       "expansion": "Stormblood",
       "jobs": [
@@ -1068,6 +1191,9 @@
     },
     {
       "bossName": "Alphascape V1.0 (Savage)",
+      "bossNameJP": "?",
+      "bossNameDE": "?",
+      "bossNameFR": "?",
       "type": "Raid",
       "expansion": "Stormblood",
       "jobs": [
@@ -1094,6 +1220,9 @@
     },
     {
       "bossName": "Alphascape V2.0 (Savage)",
+      "bossNameJP": "?",
+      "bossNameDE": "?",
+      "bossNameFR": "?",
       "type": "Raid",
       "expansion": "Stormblood",
       "jobs": [
@@ -1120,6 +1249,9 @@
     },
     {
       "bossName": "Alphascape V3.0 (Savage)",
+      "bossNameJP": "?",
+      "bossNameDE": "?",
+      "bossNameFR": "?",
       "type": "Raid",
       "expansion": "Stormblood",
       "jobs": [
@@ -1146,6 +1278,9 @@
     },
     {
       "bossName": "Alphascape V4.0 (Savage)",
+      "bossNameJP": "?",
+      "bossNameDE": "?",
+      "bossNameFR": "?",
       "type": "Raid",
       "expansion": "Stormblood",
       "jobs": [
@@ -1172,6 +1307,9 @@
     },
     {
       "bossName": "Hades (Normal)",
+      "bossNameJP": "?",
+      "bossNameDE": "?",
+      "bossNameFR": "?",
       "type": "Trial",
       "expansion": "Shadowbringers",
       "jobs": [
@@ -1198,6 +1336,9 @@
     },
     {
       "bossName": "Eden's Gate (Normal)",
+      "bossNameJP": "?",
+      "bossNameDE": "?",
+      "bossNameFR": "?",
       "type": "Raid",
       "expansion": "Shadowbringers",
       "jobs": [
@@ -1224,6 +1365,9 @@
     },
     {
       "bossName": "Titania (Extreme)",
+      "bossNameJP": "?",
+      "bossNameDE": "?",
+      "bossNameFR": "?",
       "type": "Trial",
       "expansion": "Shadowbringers",
       "jobs": [
@@ -1250,6 +1394,9 @@
     },
     {
       "bossName": "Innocence (Extreme)",
+      "bossNameJP": "?",
+      "bossNameDE": "?",
+      "bossNameFR": "?",
       "type": "Trial",
       "expansion": "Shadowbringers",
       "jobs": [
@@ -1276,6 +1423,9 @@
     },
     {
       "bossName": "Eden's Gate 1 (Savage)",
+      "bossNameJP": "?",
+      "bossNameDE": "?",
+      "bossNameFR": "?",
       "type": "Raid",
       "expansion": "Shadowbringers",
       "jobs": [
@@ -1302,6 +1452,9 @@
     },
     {
       "bossName": "Eden's Gate 2 (Savage)",
+      "bossNameJP": "?",
+      "bossNameDE": "?",
+      "bossNameFR": "?",
       "type": "Raid",
       "expansion": "Shadowbringers",
       "jobs": [
@@ -1328,6 +1481,9 @@
     },
     {
       "bossName": "Eden's Gate 3 (Savage)",
+      "bossNameJP": "?",
+      "bossNameDE": "?",
+      "bossNameFR": "?",
       "type": "Raid",
       "expansion": "Shadowbringers",
       "jobs": [
@@ -1354,6 +1510,9 @@
     },
     {
       "bossName": "Eden's Gate 4 (Savage)",
+      "bossNameJP": "?",
+      "bossNameDE": "?",
+      "bossNameFR": "?",
       "type": "Raid",
       "expansion": "Shadowbringers",
       "jobs": [
@@ -1380,6 +1539,9 @@
     },
     {
       "bossName": "Hades (Extreme)",
+      "bossNameJP": "?",
+      "bossNameDE": "?",
+      "bossNameFR": "?",
       "type": "Trial",
       "expansion": "Shadowbringers",
       "jobs": [
@@ -1406,6 +1568,9 @@
     },
     {
       "bossName": "Eden's Verse (Normal)",
+      "bossNameJP": "?",
+      "bossNameDE": "?",
+      "bossNameFR": "?",
       "type": "Raid",
       "expansion": "Shadowbringers",
       "jobs": [
@@ -1432,6 +1597,9 @@
     },
     {
       "bossName": "The Ruby Weapon (Extreme)",
+      "bossNameJP": "?",
+      "bossNameDE": "?",
+      "bossNameFR": "?",
       "type": "Trial",
       "expansion": "Shadowbringers",
       "jobs": [
@@ -1458,6 +1626,9 @@
     },
     {
       "bossName": "Eden's Verse 1 (Savage)",
+      "bossNameJP": "?",
+      "bossNameDE": "?",
+      "bossNameFR": "?",
       "type": "Raid",
       "expansion": "Shadowbringers",
       "jobs": [
@@ -1484,6 +1655,9 @@
     },
     {
       "bossName": "Eden's Verse 2 (Savage)",
+      "bossNameJP": "?",
+      "bossNameDE": "?",
+      "bossNameFR": "?",
       "type": "Raid",
       "expansion": "Shadowbringers",
       "jobs": [
@@ -1510,6 +1684,9 @@
     },
     {
       "bossName": "Eden's Verse 3 (Savage)",
+      "bossNameJP": "?",
+      "bossNameDE": "?",
+      "bossNameFR": "?",
       "type": "Raid",
       "expansion": "Shadowbringers",
       "jobs": [
@@ -1536,6 +1713,9 @@
     },
     {
       "bossName": "Eden's Verse 4 (Savage)",
+      "bossNameJP": "?",
+      "bossNameDE": "?",
+      "bossNameFR": "?",
       "type": "Raid",
       "expansion": "Shadowbringers",
       "jobs": [
@@ -1562,6 +1742,9 @@
     },
     {
       "bossName": "Warrior of Light (Extreme)",
+      "bossNameJP": "?",
+      "bossNameDE": "?",
+      "bossNameFR": "?",
       "type": "Trial",
       "expansion": "Shadowbringers",
       "jobs": [
@@ -1588,6 +1771,9 @@
     },
     {
       "bossName": "The Emerald Weapon (Extreme)",
+      "bossNameJP": "?",
+      "bossNameDE": "?",
+      "bossNameFR": "?",
       "type": "Trial",
       "expansion": "Shadowbringers",
       "jobs": [
@@ -1614,6 +1800,9 @@
     },
     {
       "bossName": "Eden's Promise",
+      "bossNameJP": "?",
+      "bossNameDE": "?",
+      "bossNameFR": "?",
       "type": "Raid",
       "expansion": "Shadowbringers",
       "jobs": [
@@ -1640,6 +1829,9 @@
     },
     {
       "bossName": "Eden's Promise 1 (Savage)",
+      "bossNameJP": "?",
+      "bossNameDE": "?",
+      "bossNameFR": "?",
       "type": "Raid",
       "expansion": "Shadowbringers",
       "jobs": [
@@ -1666,6 +1858,9 @@
     },
     {
       "bossName": "Eden's Promise 2 (Savage)",
+      "bossNameJP": "?",
+      "bossNameDE": "?",
+      "bossNameFR": "?",
       "type": "Raid",
       "expansion": "Shadowbringers",
       "jobs": [
@@ -1692,6 +1887,9 @@
     },
     {
       "bossName": "Eden's Promise 3 (Savage)",
+      "bossNameJP": "?",
+      "bossNameDE": "?",
+      "bossNameFR": "?",
       "type": "Raid",
       "expansion": "Shadowbringers",
       "jobs": [
@@ -1718,6 +1916,9 @@
     },
     {
       "bossName": "Eden's Promise 4 (Savage)",
+      "bossNameJP": "?",
+      "bossNameDE": "?",
+      "bossNameFR": "?",
       "type": "Raid",
       "expansion": "Shadowbringers",
       "jobs": [
@@ -1744,6 +1945,9 @@
     },
     {
       "bossName": "The Diamond Weapon (Extreme)",
+      "bossNameJP": "?",
+      "bossNameDE": "?",
+      "bossNameFR": "?",
       "type": "Trial",
       "expansion": "Shadowbringers",
       "jobs": [
@@ -1770,6 +1974,9 @@
     },
     {
       "bossName": "Level 90 (i560 Synced)",
+      "bossNameJP": "レベル 90 (アイテムレベルシンク：560)",
+      "bossNameDE": "Stufe 90 (Gegenstandsstufen-Anpassung: St. 560)",
+      "bossNameFR": "Niveau 90  (Niveau d'objet synchronisé : 560)",
       "type": "Trial",
       "expansion": "Endwalker",
       "jobs": [
@@ -1796,6 +2003,9 @@
     },
     {
       "bossName": "The Final Day (Normal)",
+      "bossNameJP": "終焉の戦い",
+      "bossNameDE": "Prophetie - Endsängerin",
+      "bossNameFR": "Le Répons final",
       "type": "Trial",
       "expansion": "Endwalker",
       "jobs": [
@@ -1822,6 +2032,9 @@
     },
     {
       "bossName": "Zodiark (Extreme)",
+      "bossNameJP": "極ゾディアーク討滅戦",
+      "bossNameDE": "Eschatos - Zodiark",
+      "bossNameFR": "Le Cratère des Martyrs (extrême)",
       "type": "Trial",
       "expansion": "Endwalker",
       "jobs": [
@@ -1848,6 +2061,9 @@
     },
     {
       "bossName": "Hydaelyn (Extreme)",
+      "bossNameJP": "極ハイデリン討滅戦",
+      "bossNameDE": "Eschatos - Hydaelyn",
+      "bossNameFR": "Le Cristal-mère (extrême)",
       "type": "Trial",
       "expansion": "Endwalker",
       "jobs": [
@@ -1874,6 +2090,9 @@
     },
     {
       "bossName": "Endsinger (Extreme)",
+      "bossNameJP": "終極の戦い",
+      "bossNameDE": "Eschatos - Endsängerin",
+      "bossNameFR": "Le Répons final (extrême)",
       "type": "Trial",
       "expansion": "Endwalker",
       "jobs": [
@@ -1900,6 +2119,9 @@
     },
     {
       "bossName": "Asphodelos (Normal)",
+      "bossNameJP": "万魔殿パンデモニウム：辺獄編",
+      "bossNameDE": "Asphodelos",
+      "bossNameFR": "Les Limbes du Pandæmonium",
       "type": "Raid",
       "expansion": "Endwalker",
       "jobs": [
@@ -1926,6 +2148,9 @@
     },
     {
       "bossName": "The First Circle (Savage)",
+      "bossNameJP": "万魔殿パンデモニウム零式：辺獄編1",
+      "bossNameDE": "Asphodelos - Erster Kreis (episch)",
+      "bossNameFR": "Les Limbes du Pandæmonium - Parvis (sadique)",
       "type": "Raid",
       "expansion": "Endwalker",
       "jobs": [
@@ -1952,6 +2177,9 @@
     },
     {
       "bossName": "The Second Circle (Savage)",
+      "bossNameJP": "万魔殿パンデモニウム零式：辺獄編2",
+      "bossNameDE": "Asphodelos - Zweiter Kreis (episch)",
+      "bossNameFR": "Les Limbes du Pandæmonium - Cloaque (sadique)",
       "type": "Raid",
       "expansion": "Endwalker",
       "jobs": [
@@ -1978,6 +2206,9 @@
     },
     {
       "bossName": "The Third Circle (Savage)",
+      "bossNameJP": "万魔殿パンデモニウム零式：辺獄編3",
+      "bossNameDE": "Asphodelos - Dritter Kreis (episch)",
+      "bossNameFR": "Les Limbes du Pandæmonium - Fournaise (sadique)",
       "type": "Raid",
       "expansion": "Endwalker",
       "jobs": [
@@ -2004,6 +2235,9 @@
     },
     {
       "bossName": "The Fourth Circle (Savage)",
+      "bossNameJP": "万魔殿パンデモニウム零式：辺獄編4",
+      "bossNameDE": "Asphodelos - Vierter Kreis (episch)",
+      "bossNameFR": "Les Limbes du Pandæmonium - Abîme (sadique)",
       "type": "Raid",
       "expansion": "Endwalker",
       "jobs": [
