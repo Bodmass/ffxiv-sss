@@ -13,10 +13,25 @@ const bossData = data.boss
 function Calculate({ dStatus, dummyHP, dummyTime }) {
   let dps = 'h'
 
-  const { job, boss } = useContext(UserContext)
+  const { job, boss, lang } = useContext(UserContext)
 
   bossData.forEach((b) => {
-    if (b.bossName === boss) {
+    let bossName = ''
+    switch (lang) {
+      case 'jp':
+        bossName = b.bossNameJP
+        break
+      case 'fr':
+        bossName = b.bossNameFR
+        break
+      case 'de':
+        bossName = b.bossNameDE
+        break
+      default:
+        bossName = b.bossName
+    }
+
+    if (bossName === boss) {
       const jobsHP = b.jobs
       jobsHP.forEach((e) => {
         if (e.job === job) {
