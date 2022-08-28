@@ -2261,6 +2261,64 @@
         { "job": "smn", "bossHp": "1213076" },
         { "job": "rdm", "bossHp": "1219304" }
       ]
+    },
+    {
+      "bossName": "Barbariccia (Extreme)",
+      "bossNameJP": "バルバリシア",
+      "bossNameDE": "Eschatos - Barbarizia",
+      "bossNameFR": "La Toison des tempêtes",
+      "type": "Trial",
+      "expansion": "Endwalker",
+      "jobs": [
+        { "job": "pld", "bossHp": "908596" },
+        { "job": "war", "bossHp": "914132" },
+        { "job": "drk", "bossHp": "936276" },
+        { "job": "gnb", "bossHp": "943888" },
+        { "job": "whm", "bossHp": "862924" },
+        { "job": "sch", "bossHp": "764660" },
+        { "job": "ast", "bossHp": "700304" },
+        { "job": "sge", "bossHp": "847700" },
+        { "job": "mnk", "bossHp": "1368084" },
+        { "job": "drg", "bossHp": "1338328" },
+        { "job": "nin", "bossHp": "1274664" },
+        { "job": "sam", "bossHp": "1395764" },
+        { "job": "rpr", "bossHp": "1373620" },
+        { "job": "brd", "bossHp": "1147336" },
+        { "job": "mch", "bossHp": "1292656" },
+        { "job": "dnc", "bossHp": "975720" },
+        { "job": "blm", "bossHp": "1444204" },
+        { "job": "smn", "bossHp": "1277432" },
+        { "job": "rdm", "bossHp": "1283660" }
+      ]
+    },
+    {
+      "bossName": "Abyssos (Normal)",
+      "bossNameJP": "煉獄編",
+      "bossNameDE": "Abyssos",
+      "bossNameFR": "Le Purgatoire du Pandamonium",
+      "type": "Raid",
+      "expansion": "Endwalker",
+      "jobs": [
+        { "job": "pld", "bossHp": "823480" },
+        { "job": "war", "bossHp": "829016" },
+        { "job": "drk", "bossHp": "849084" },
+        { "job": "gnb", "bossHp": "856004" },
+        { "job": "whm", "bossHp": "781960" },
+        { "job": "sch", "bossHp": "692692" },
+        { "job": "ast", "bossHp": "634564" },
+        { "job": "sge", "bossHp": "768812" },
+        { "job": "mnk", "bossHp": "1240756" },
+        { "job": "drg", "bossHp": "1213768" },
+        { "job": "nin", "bossHp": "1155640" },
+        { "job": "sam", "bossHp": "1264976" },
+        { "job": "rpr", "bossHp": "1244908" },
+        { "job": "brd", "bossHp": "1040076" },
+        { "job": "mch", "bossHp": "1171556" },
+        { "job": "dnc", "bossHp": "884376" },
+        { "job": "blm", "bossHp": "1309264" },
+        { "job": "smn", "bossHp": "1158408" },
+        { "job": "rdm", "bossHp": "1163944" }
+      ]
     }
   ]
 }
