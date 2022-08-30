@@ -20,7 +20,7 @@ export default function Home() {
       <div className="updateDetails">
         <body>
           <p>
-            <b>Updated for Patch 6.2 (23/08/2022)</b>
+            <b>Updated for Patch 6.2 (30/08/2022)</b>
           </p>
         </body>
       </div>
