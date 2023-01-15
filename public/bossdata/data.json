@@ -2435,6 +2435,92 @@
         { "job": "smn", "bossHp": "1498872" },
         { "job": "rdm", "bossHp": "1505792" }
       ]
+    },
+    {
+      "bossName": "Rubicante (Extreme)",
+      "bossNameJP": "ルビカンテ",
+      "bossNameDE": "Eschatos - Rubicante",
+      "bossNameFR": "Le Mont du Supplice (extrême)",
+      "type": "Trial",
+      "expansion": "Endwalker",
+      "jobs": [
+        {
+          "job": "pld",
+          "bossHp": "983332"
+        },
+        {
+          "job": "war",
+          "bossHp": "1002016"
+        },
+        {
+          "job": "drk",
+          "bossHp": "984716"
+        },
+        {
+          "job": "gnb",
+          "bossHp": "1031080"
+        },
+        {
+          "job": "whm",
+          "bossHp": "904444"
+        },
+        {
+          "job": "sch",
+          "bossHp": "791648"
+        },
+        {
+          "job": "ast",
+          "bossHp": "701688"
+        },
+        {
+          "job": "sge",
+          "bossHp": "907904"
+        },
+        {
+          "job": "mnk",
+          "bossHp": "1419984"
+        },
+        {
+          "job": "drg",
+          "bossHp": "1460812"
+        },
+        {
+          "job": "nin",
+          "bossHp": "1444204"
+        },
+        {
+          "job": "sam",
+          "bossHp": "1520324"
+        },
+        {
+          "job": "rpr",
+          "bossHp": "1502332"
+        },
+        {
+          "job": "brd",
+          "bossHp": "1179168"
+        },
+        {
+          "job": "mch",
+          "bossHp": "1197160"
+        },
+        {
+          "job": "dnc",
+          "bossHp": "1096820"
+        },
+        {
+          "job": "blm",
+          "bossHp": "1597136"
+        },
+        {
+          "job": "smn",
+          "bossHp": "1496104"
+        },
+        {
+          "job": "rdm",
+          "bossHp": "1366008"
+        }
+      ]
     }
   ]
 }
