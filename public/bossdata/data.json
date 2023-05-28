@@ -2521,6 +2521,178 @@
           "bossHp": "1366008"
         }
       ]
+    },
+    {
+      "bossName": "Golbez (Extreme)",
+      "bossNameJP": "ゴルベーザ",
+      "bossNameDE": "Eschatos - Golbez",
+      "bossNameFR": "La Chaire de l'Exilée (extrême) ",
+      "type": "Trial",
+      "expansion": "Endwalker",
+      "jobs": [
+        {
+          "job": "pld",
+          "bossHp": "1130728"
+        },
+        {
+          "job": "war",
+          "bossHp": "1168096"
+        },
+        {
+          "job": "drk",
+          "bossHp": "1119656"
+        },
+        {
+          "job": "gnb",
+          "bossHp": "1191624"
+        },
+        {
+          "job": "whm",
+          "bossHp": "1058760"
+        },
+        {
+          "job": "sch",
+          "bossHp": "899600"
+        },
+        {
+          "job": "ast",
+          "bossHp": "797184"
+        },
+        {
+          "job": "sge",
+          "bossHp": "1042152"
+        },
+        {
+          "job": "mnk",
+          "bossHp": "1614436"
+        },
+        {
+          "job": "drg",
+          "bossHp": "1660108"
+        },
+        {
+          "job": "nin",
+          "bossHp": "1641424"
+        },
+        {
+          "job": "sam",
+          "bossHp": "1745224"
+        },
+        {
+          "job": "rpr",
+          "bossHp": "1678792"
+        },
+        {
+          "job": "brd",
+          "bossHp": "1340404"
+        },
+        {
+          "job": "mch",
+          "bossHp": "1360472"
+        },
+        {
+          "job": "dnc",
+          "bossHp": "1246292"
+        },
+        {
+          "job": "blm",
+          "bossHp": "1869092"
+        },
+        {
+          "job": "smn",
+          "bossHp": "1699552"
+        },
+        {
+          "job": "rdm",
+          "bossHp": "1552156"
+        }
+      ]
+    },
+    {
+      "bossName": "Anabaseios (Normal)",
+      "bossNameJP": "万魔殿パンデモニウム",
+      "bossNameDE": "Anabaseios",
+      "bossNameFR": "Le Paradis du Pandæmonium",
+      "type": "Raid",
+      "expansion": "Endwalker",
+      "jobs": [
+        {
+          "job": "pld",
+          "bossHp": "1027620"
+        },
+        {
+          "job": "war",
+          "bossHp": "1061528"
+        },
+        {
+          "job": "drk",
+          "bossHp": "1016548"
+        },
+        {
+          "job": "gnb",
+          "bossHp": "1082980"
+        },
+        {
+          "job": "whm",
+          "bossHp": "961880"
+        },
+        {
+          "job": "sch",
+          "bossHp": "817252"
+        },
+        {
+          "job": "ast",
+          "bossHp": "724524"
+        },
+        {
+          "job": "sge",
+          "bossHp": "946656"
+        },
+        {
+          "job": "mnk",
+          "bossHp": "1466348"
+        },
+        {
+          "job": "drg",
+          "bossHp": "1507868"
+        },
+        {
+          "job": "nin",
+          "bossHp": "1491260"
+        },
+        {
+          "job": "sam",
+          "bossHp": "1585372"
+        },
+        {
+          "job": "rpr",
+          "bossHp": "1525168"
+        },
+        {
+          "job": "brd",
+          "bossHp": "1217228"
+        },
+        {
+          "job": "mch",
+          "bossHp": "1235912"
+        },
+        {
+          "job": "dnc",
+          "bossHp": "1132112"
+        },
+        {
+          "job": "blm",
+          "bossHp": "1698168"
+        },
+        {
+          "job": "smn",
+          "bossHp": "1543852"
+        },
+        {
+          "job": "rdm",
+          "bossHp": "1410296"
+        }
+      ]
     }
   ]
 }
