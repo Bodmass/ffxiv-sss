@@ -11,7 +11,7 @@ export default function Home() {
         <title>FFXIV Stone, Sky, Sea Calculator</title>
         <meta
           name="description"
-          content="Final Fantasy XIV Endwalker DPS Calculator for Stone, Sky, Sea. Updated for Patch 6.4 (28/05/2023)"
+          content="Final Fantasy XIV Endwalker DPS Calculator for Stone, Sky, Sea. Updated for Patch 6.4 (30/05/2023)"
         />
         <meta name="keywords" content="FFXIV, Final Fantasy XIV, Final Fantasy 14, DPS, Calculator, Stone Sky Sea" />
         <link rel="icon" href="/favicon.ico" />
@@ -20,7 +20,7 @@ export default function Home() {
       <div className="updateDetails">
         <body>
           <p>
-            <b>Updated for Patch 6.4 (28/05/2023)</b>
+            <b>Updated for Patch 6.4 (30/05/2023)</b>
           </p>
         </body>
       </div>
