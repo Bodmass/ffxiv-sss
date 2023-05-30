@@ -2693,6 +2693,350 @@
           "bossHp": "1410296"
         }
       ]
+    },
+    {
+      "bossName": "The Ninth Circle (Savage)",
+      "bossNameJP": "万魔殿パンデモニウム零式：天獄編1",
+      "bossNameDE": "Anabaseios - Neunter Kreis (episch)",
+      "bossNameFR": "Le Paradis du Pandæmonium - Métempsycose (sadique)",
+      "type": "Raid",
+      "expansion": "Endwalker",
+      "jobs": [
+        {
+          "job": "pld",
+          "bossHp": "1166712"
+        },
+        {
+          "job": "war",
+          "bossHp": "1204772"
+        },
+        {
+          "job": "drk",
+          "bossHp": "1154256"
+        },
+        {
+          "job": "gnb",
+          "bossHp": "1228992"
+        },
+        {
+          "job": "whm",
+          "bossHp": "1091976"
+        },
+        {
+          "job": "sch",
+          "bossHp": "927280"
+        },
+        {
+          "job": "ast",
+          "bossHp": "822096"
+        },
+        {
+          "job": "sge",
+          "bossHp": "1074676"
+        },
+        {
+          "job": "mnk",
+          "bossHp": "1664952"
+        },
+        {
+          "job": "drg",
+          "bossHp": "1712700"
+        },
+        {
+          "job": "nin",
+          "bossHp": "1692632"
+        },
+        {
+          "job": "sam",
+          "bossHp": "1799892"
+        },
+        {
+          "job": "rpr",
+          "bossHp": "1731384"
+        },
+        {
+          "job": "brd",
+          "bossHp": "1382616"
+        },
+        {
+          "job": "mch",
+          "bossHp": "1403376"
+        },
+        {
+          "job": "dnc",
+          "bossHp": "1285044"
+        },
+        {
+          "job": "blm",
+          "bossHp": "1927912"
+        },
+        {
+          "job": "smn",
+          "bossHp": "1753528"
+        },
+        {
+          "job": "rdm",
+          "bossHp": "1601288"
+        }
+      ]
+    },
+    {
+      "bossName": "The Tenth Circle (Savage)",
+      "bossNameJP": "万魔殿パンデモニウム零式：天獄編2",
+      "bossNameDE": "Anabaseios - Zehnter Kreis (episch)",
+      "bossNameFR": "Le Paradis du Pandæmonium - Monochrome (sadique)",
+      "type": "Raid",
+      "expansion": "Endwalker",
+      "jobs": [
+        {
+          "job": "pld",
+          "bossHp": "1206156"
+        },
+        {
+          "job": "war",
+          "bossHp": "1246292"
+        },
+        {
+          "job": "drk",
+          "bossHp": "1193700"
+        },
+        {
+          "job": "gnb",
+          "bossHp": "1271204"
+        },
+        {
+          "job": "whm",
+          "bossHp": "1129344"
+        },
+        {
+          "job": "sch",
+          "bossHp": "959112"
+        },
+        {
+          "job": "ast",
+          "bossHp": "850468"
+        },
+        {
+          "job": "sge",
+          "bossHp": "1111352"
+        },
+        {
+          "job": "mnk",
+          "bossHp": "1721004"
+        },
+        {
+          "job": "drg",
+          "bossHp": "1770828"
+        },
+        {
+          "job": "nin",
+          "bossHp": "1750068"
+        },
+        {
+          "job": "sam",
+          "bossHp": "1860788"
+        },
+        {
+          "job": "rpr",
+          "bossHp": "1790204"
+        },
+        {
+          "job": "brd",
+          "bossHp": "1428980"
+        },
+        {
+          "job": "mch",
+          "bossHp": "1451124"
+        },
+        {
+          "job": "dnc",
+          "bossHp": "1329332"
+        },
+        {
+          "job": "blm",
+          "bossHp": "1992960"
+        },
+        {
+          "job": "smn",
+          "bossHp": "1813040"
+        },
+        {
+          "job": "rdm",
+          "bossHp": "1655264"
+        }
+      ]
+    },
+    {
+      "bossName": "The Eleventh Circle (Savage)",
+      "bossNameJP": "万魔殿パンデモニウム零式：天獄編3",
+      "bossNameDE": "Anabaseios - Elfter Kreis (episch)",
+      "bossNameFR": "Le Paradis du Pandæmonium - Tribunal (sadique)",
+      "type": "Raid",
+      "expansion": "Endwalker",
+      "jobs": [
+        {
+          "job": "pld",
+          "bossHp": "1245600"
+        },
+        {
+          "job": "war",
+          "bossHp": "1287120"
+        },
+        {
+          "job": "drk",
+          "bossHp": "1233144"
+        },
+        {
+          "job": "gnb",
+          "bossHp": "1312724"
+        },
+        {
+          "job": "whm",
+          "bossHp": "1166020"
+        },
+        {
+          "job": "sch",
+          "bossHp": "990252"
+        },
+        {
+          "job": "ast",
+          "bossHp": "878148"
+        },
+        {
+          "job": "sge",
+          "bossHp": "1147336"
+        },
+        {
+          "job": "mnk",
+          "bossHp": "1777748"
+        },
+        {
+          "job": "drg",
+          "bossHp": "1828956"
+        },
+        {
+          "job": "nin",
+          "bossHp": "1808196"
+        },
+        {
+          "job": "sam",
+          "bossHp": "1922376"
+        },
+        {
+          "job": "rpr",
+          "bossHp": "1849024"
+        },
+        {
+          "job": "brd",
+          "bossHp": "1476036"
+        },
+        {
+          "job": "mch",
+          "bossHp": "1498872"
+        },
+        {
+          "job": "dnc",
+          "bossHp": "1372928"
+        },
+        {
+          "job": "blm",
+          "bossHp": "2058700"
+        },
+        {
+          "job": "smn",
+          "bossHp": "1872552"
+        },
+        {
+          "job": "rdm",
+          "bossHp": "1709932"
+        }
+      ]
+    },
+    {
+      "bossName": "The Twelfth Circle (Savage)",
+      "bossNameJP": "万魔殿パンデモニウム零式：天獄編4",
+      "bossNameDE": "Anabaseios - Zwölfter Kreis (episch)",
+      "bossNameFR": "Le Paradis du Pandæmonium - Apothéose (sadique)",
+      "type": "Raid",
+      "expansion": "Endwalker",
+      "jobs": [
+        {
+          "job": "pld",
+          "bossHp": "1325872"
+        },
+        {
+          "job": "war",
+          "bossHp": "1370160"
+        },
+        {
+          "job": "drk",
+          "bossHp": "1312724"
+        },
+        {
+          "job": "gnb",
+          "bossHp": "1397840"
+        },
+        {
+          "job": "whm",
+          "bossHp": "1241448"
+        },
+        {
+          "job": "sch",
+          "bossHp": "1054608"
+        },
+        {
+          "job": "ast",
+          "bossHp": "934892"
+        },
+        {
+          "job": "sge",
+          "bossHp": "1221380"
+        },
+        {
+          "job": "mnk",
+          "bossHp": "1892620"
+        },
+        {
+          "job": "drg",
+          "bossHp": "1946596"
+        },
+        {
+          "job": "nin",
+          "bossHp": "1924452"
+        },
+        {
+          "job": "sam",
+          "bossHp": "2046244"
+        },
+        {
+          "job": "rpr",
+          "bossHp": "1968740"
+        },
+        {
+          "job": "brd",
+          "bossHp": "1571532"
+        },
+        {
+          "job": "mch",
+          "bossHp": "1595060"
+        },
+        {
+          "job": "dnc",
+          "bossHp": "1461504"
+        },
+        {
+          "job": "blm",
+          "bossHp": "2191564"
+        },
+        {
+          "job": "smn",
+          "bossHp": "1992960"
+        },
+        {
+          "job": "rdm",
+          "bossHp": "1820652"
+        }
+      ]
     }
   ]
 }
