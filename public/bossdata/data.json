@@ -3037,6 +3037,92 @@
           "bossHp": "1820652"
         }
       ]
+    },
+    {
+      "bossName": "Zeromus (Extreme)",
+      "bossNameJP": "極ゼロムス討滅戦",
+      "bossNameDE": "Eschatos - Zeromus",
+      "bossNameFR": "La Fracture abyssale (extrême) ",
+      "type": "Trial",
+      "expansion": "Endwalker",
+      "jobs": [
+        {
+          "job": "pld",
+          "bossHp": "1237988"
+        },
+        {
+          "job": "war",
+          "bossHp": "1255980"
+        },
+        {
+          "job": "drk",
+          "bossHp": "1175708"
+        },
+        {
+          "job": "gnb",
+          "bossHp": "1261516"
+        },
+        {
+          "job": "whm",
+          "bossHp": "1087824"
+        },
+        {
+          "job": "sch",
+          "bossHp": "970876"
+        },
+        {
+          "job": "ast",
+          "bossHp": "905828"
+        },
+        {
+          "job": "sge",
+          "bossHp": "1123808"
+        },
+        {
+          "job": "mnk",
+          "bossHp": "1736920"
+        },
+        {
+          "job": "drg",
+          "bossHp": "1768060"
+        },
+        {
+          "job": "nin",
+          "bossHp": "1774980"
+        },
+        {
+          "job": "sam",
+          "bossHp": "1840720"
+        },
+        {
+          "job": "rpr",
+          "bossHp": "1820652"
+        },
+        {
+          "job": "brd",
+          "bossHp": "1451124"
+        },
+        {
+          "job": "mch",
+          "bossHp": "1795048"
+        },
+        {
+          "job": "dnc",
+          "bossHp": "1325872"
+        },
+        {
+          "job": "blm",
+          "bossHp": "1993652"
+        },
+        {
+          "job": "smn",
+          "bossHp": "1829648"
+        },
+        {
+          "job": "rdm",
+          "bossHp": "1684328"
+        }
+      ]
     }
   ]
 }
