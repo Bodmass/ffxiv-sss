@@ -3123,6 +3123,37 @@
           "bossHp": "1684328"
         }
       ]
+    },
+    {
+      "bossName": "Level 100 (iXXX Synced)",
+      "bossNameJP": "レベル 100 (アイテムレベルシンク：XXX)",
+      "bossNameDE": "Stufe 100 (Gegenstandsstufen-Anpassung: St. XXX)",
+      "bossNameFR": "Niveau 100  (Niveau d'objet synchronisé : XXX)",
+      "type": "Trial",
+      "expansion": "Dawntrail",
+      "jobs": [
+        { "job": "pld", "bossHp": "h" },
+        { "job": "war", "bossHp": "h" },
+        { "job": "drk", "bossHp": "h" },
+        { "job": "gnb", "bossHp": "h" },
+        { "job": "whm", "bossHp": "h" },
+        { "job": "sch", "bossHp": "h" },
+        { "job": "ast", "bossHp": "h" },
+        { "job": "sge", "bossHp": "h" },
+        { "job": "mnk", "bossHp": "h" },
+        { "job": "drg", "bossHp": "h" },
+        { "job": "nin", "bossHp": "h" },
+        { "job": "sam", "bossHp": "h" },
+        { "job": "rpr", "bossHp": "h" },
+        { "job": "vpr", "bossHp": "h" },
+        { "job": "brd", "bossHp": "h" },
+        { "job": "mch", "bossHp": "h" },
+        { "job": "dnc", "bossHp": "h" },
+        { "job": "blm", "bossHp": "h" },
+        { "job": "smn", "bossHp": "h" },
+        { "job": "rdm", "bossHp": "h" },
+        { "job": "pct", "bossHp": "h" }
+      ]
     }
   ]
 }

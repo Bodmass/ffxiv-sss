@@ -24,13 +24,13 @@
 
 .innercontainersmaller {
   width: 100%;
-  max-width: 300px;
+  max-width: 350px;
   height: 260px;
 }
 
 .innercontainer {
   width: 100%;
-  max-width: 300px;
+  max-width: 350px;
   height: auto;
 }
 
@@ -44,7 +44,7 @@
   background-color: rgb(34, 34, 34);
   font-size: 1.1rem;
   font-weight: bold;
-  width: 300px;
+  width: 100%;
   height: auto;
 }
 
