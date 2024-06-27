@@ -66,7 +66,15 @@ function Calculate({ dStatus, dummyHP, dummyTime }) {
         </p>
       </div>
       <div style={{ display: dStatus !== ' ' && job !== null ? 'block' : 'none' }}>
-        <h2>You did {`${dps}`} DPS!</h2>
+        {Number.isNaN(dps) ? (
+          <h2>
+            No data available
+            <br />
+            Please come back later
+          </h2>
+        ) : (
+          <h2>You did {`${dps}`} DPS!</h2>
+        )}
       </div>
     </div>
   )
