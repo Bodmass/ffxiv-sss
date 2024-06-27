@@ -141,7 +141,7 @@ function BossMenu({ selectedIndex, setSelectedIndex }) {
 }
 
 const BossSelection = () => {
-  const [expansion, setExpansion] = useState('Endwalker')
+  const [expansion, setExpansion] = useState('Dawntrail')
   const { lang } = useContext(UserContext)
   const [selectedIndex, setSelectedIndex] = useState(1)
 
