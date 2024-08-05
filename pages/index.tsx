@@ -12,7 +12,7 @@ export default function Home() {
         <title>FFXIV Stone, Sky, Sea Calculator</title>
         <meta
           name="description"
-          content="Final Fantasy XIV Dawntrail DPS Calculator for Stone, Sky, Sea. Updated for Patch 7.0 (28/06/2024)"
+          content="Final Fantasy XIV Dawntrail DPS Calculator for Stone, Sky, Sea. Updated for Patch 7.05 (30/07/2024)"
         />
         <meta
           name="keywords"
@@ -24,7 +24,7 @@ export default function Home() {
       <div className="updateDetails">
         <body>
           <p>
-            <b>Updated for Patch 7.0 (28/06/2024)</b>
+            <b>Updated for Patch 7.05 (30/07/2024)</b>
           </p>
         </body>
       </div>
