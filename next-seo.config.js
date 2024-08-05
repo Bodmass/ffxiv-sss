@@ -1,5 +1,6 @@
 const title = 'FFXIV Stone, Sky, Sea Calculator'
-const description = 'Final Fantasy XIV Endwalker DPS Calculator for Stone, Sky, Sea. Updated for Patch 6.5 (06/10/2023)'
+const description =
+  'Final Fantasy XIV Endwalker DPS Calculator for Stone, Sky, Sea. Updated for Patch 7.05 (30/07/2024)'
 const url = 'https://ffxiv.azizarar.com/'
 const images = [
   {
@@ -10,7 +11,7 @@ const images = [
   },
 ]
 const tags = [
-  'FFXIV, Final Fantasy, Final Fantasy XIV, XIV, Final Fantasy 14, 14, Endwalker, Shadowbringers, Stone Sky Sea, Stone, Sky, Sea, SSS, DPS, DPS Calculator, Calculator, ',
+  'FFXIV, Final Fantasy, Final Fantasy XIV, XIV, Final Fantasy 14, 14, Dawntrail, Endwalker, Shadowbringers, Stone Sky Sea, Stone, Sky, Sea, SSS, DPS, DPS Calculator, Calculator,Trial of Spire, ',
 ]
 
 module.exports = {

@@ -11,7 +11,7 @@ import data from '../public/bossdata/data.json'
 const bossData = data.boss
 
 function Calculate({ dStatus, dummyHP, dummyTime }) {
-  let dps = 'h'
+  let dps = 'NaN'
 
   const { job, boss, lang } = useContext(UserContext)
 
@@ -51,6 +51,9 @@ function Calculate({ dStatus, dummyHP, dummyTime }) {
       })
     }
   })
+  if (Number.isNaN(dps)) {
+    dps = 'NaN'
+  }
 
   return (
     <div className={styles.innercontainer}>
@@ -66,7 +69,15 @@ function Calculate({ dStatus, dummyHP, dummyTime }) {
         </p>
       </div>
       <div style={{ display: dStatus !== ' ' && job !== null ? 'block' : 'none' }}>
-        <h2>You did {`${dps}`} DPS!</h2>
+        {dps === 'NaN' ? (
+          <h2>
+            No data available
+            <br />
+            Please come back later
+          </h2>
+        ) : (
+          <h2>You did {`${dps}`} DPS!</h2>
+        )}
       </div>
     </div>
   )

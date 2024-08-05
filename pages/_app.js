@@ -50,22 +50,39 @@ export default class MyApp extends App {
   render() {
     const { Component, pageProps } = this.props
 
+    if (typeof window !== 'undefined' && localStorage.getItem('cookieConsent') === 'accepted') {
+      return (
+        <Analytics>
+          <UserContext.Provider
+            value={{
+              job: this.state.job,
+              selectJob: this.selectJob,
+              boss: this.state.boss,
+              selectBoss: this.selectBoss,
+              lang: this.state.lang,
+              selectLanguage: this.selectLanguage,
+            }}
+          >
+            <DefaultSeo {...SEO} />
+            <Component {...pageProps} />
+          </UserContext.Provider>
+        </Analytics>
+      )
+    }
     return (
-      <Analytics>
-        <UserContext.Provider
-          value={{
-            job: this.state.job,
-            selectJob: this.selectJob,
-            boss: this.state.boss,
-            selectBoss: this.selectBoss,
-            lang: this.state.lang,
-            selectLanguage: this.selectLanguage,
-          }}
-        >
-          <DefaultSeo {...SEO} />
-          <Component {...pageProps} />
-        </UserContext.Provider>
-      </Analytics>
+      <UserContext.Provider
+        value={{
+          job: this.state.job,
+          selectJob: this.selectJob,
+          boss: this.state.boss,
+          selectBoss: this.selectBoss,
+          lang: this.state.lang,
+          selectLanguage: this.selectLanguage,
+        }}
+      >
+        <DefaultSeo {...SEO} />
+        <Component {...pageProps} />
+      </UserContext.Provider>
     )
   }
 }

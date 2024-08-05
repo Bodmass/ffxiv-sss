@@ -1,0 +1,35 @@
+.banner {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 8rem;
+  margin: 1rem 0 0 0;
+  bottom: 0;
+  left: 50%;
+  font-size: 0.9rem;
+  line-height: 1.25rem;
+  background-color: black;
+  border: 1px solid white;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .banner {
+    width: 100%;
+    left: 0%;
+  }
+}
+
+.bannerButtons {
+  display: flex;
+  width: 200px;
+  padding-top: 1rem;
+  justify-content: space-between;
+}

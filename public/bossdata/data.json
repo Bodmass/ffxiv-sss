@@ -3123,6 +3123,852 @@
           "bossHp": "1684328"
         }
       ]
+    },
+    {
+      "bossName": "Level 100 (i690 Synced)",
+      "bossNameJP": "レベル 100 (アイテムレベルシンク：690)",
+      "bossNameDE": "Stufe 100 (Gegenstandsstufen-Anpassung: St. 690)",
+      "bossNameFR": "Niveau 100  (Niveau d'objet synchronisé : 690)",
+      "type": "Trial",
+      "expansion": "Dawntrail",
+      "jobs": [
+        {
+          "job": "pld",
+          "bossHp": "2076949"
+        },
+        {
+          "job": "war",
+          "bossHp": "2172982"
+        },
+        {
+          "job": "drk",
+          "bossHp": "2086364"
+        },
+        {
+          "job": "gnb",
+          "bossHp": "2203110"
+        },
+        {
+          "job": "whm",
+          "bossHp": "1783201"
+        },
+        {
+          "job": "sch",
+          "bossHp": "1534645"
+        },
+        {
+          "job": "ast",
+          "bossHp": "1444261"
+        },
+        {
+          "job": "sge",
+          "bossHp": "1826510"
+        },
+        {
+          "job": "mnk",
+          "bossHp": "2977023"
+        },
+        {
+          "job": "drg",
+          "bossHp": "3090003"
+        },
+        {
+          "job": "nin",
+          "bossHp": "3042928"
+        },
+        {
+          "job": "sam",
+          "bossHp": "3214281"
+        },
+        {
+          "job": "rpr",
+          "bossHp": "3135195"
+        },
+        {
+          "job": "vpr",
+          "bossHp": "3244409"
+        },
+        {
+          "job": "brd",
+          "bossHp": "2393293"
+        },
+        {
+          "job": "mch",
+          "bossHp": "2978906"
+        },
+        {
+          "job": "dnc",
+          "bossHp": "2349984"
+        },
+        {
+          "job": "blm",
+          "bossHp": "3319729"
+        },
+        {
+          "job": "smn",
+          "bossHp": "2826383"
+        },
+        {
+          "job": "rdm",
+          "bossHp": "2856511"
+        },
+        {
+          "job": "pct",
+          "bossHp": "3122014"
+        }
+      ]
+    },
+    {
+      "bossName": "The Interphos",
+      "bossNameJP": "エターナルクイーン討滅戦",
+      "bossNameDE": "Zel Tajaal - Ewige Königin",
+      "bossNameFR": "Interphos",
+      "type": "Trial",
+      "expansion": "Dawntrail",
+      "jobs": [
+        {
+          "job": "pld",
+          "bossHp": "1941373"
+        },
+        {
+          "job": "war",
+          "bossHp": "2027991"
+        },
+        {
+          "job": "drk",
+          "bossHp": "1947022"
+        },
+        {
+          "job": "gnb",
+          "bossHp": "2054353"
+        },
+        {
+          "job": "whm",
+          "bossHp": "1698466"
+        },
+        {
+          "job": "sch",
+          "bossHp": "1461208"
+        },
+        {
+          "job": "ast",
+          "bossHp": "1376473"
+        },
+        {
+          "job": "sge",
+          "bossHp": "1738009"
+        },
+        {
+          "job": "mnk",
+          "bossHp": "2801904"
+        },
+        {
+          "job": "drg",
+          "bossHp": "2880990"
+        },
+        {
+          "job": "nin",
+          "bossHp": "2837681"
+        },
+        {
+          "job": "sam",
+          "bossHp": "2992087"
+        },
+        {
+          "job": "rpr",
+          "bossHp": "2892288"
+        },
+        {
+          "job": "vpr",
+          "bossHp": "3020332"
+        },
+        {
+          "job": "brd",
+          "bossHp": "2231355"
+        },
+        {
+          "job": "mch",
+          "bossHp": "2779308"
+        },
+        {
+          "job": "dnc",
+          "bossHp": "2052470"
+        },
+        {
+          "job": "blm",
+          "bossHp": "3095652"
+        },
+        {
+          "job": "smn",
+          "bossHp": "2634317"
+        },
+        {
+          "job": "rdm",
+          "bossHp": "2664445"
+        },
+        {
+          "job": "pct",
+          "bossHp": "2913001"
+        }
+      ]
+    },
+    {
+      "bossName": "Worqor Lar Dor (Extreme) ",
+      "bossNameJP": "極ヴァリガルマンダ討滅戦 ",
+      "bossNameDE": "Gok Tajaal - Valigarmanda ",
+      "bossNameFR": "Worqor Lar Dor (extrême) ",
+      "type": "Trial",
+      "expansion": "Dawntrail",
+      "jobs": [
+        {
+          "job": "pld",
+          "bossHp": "2076949"
+        },
+        {
+          "job": "war",
+          "bossHp": "2169216"
+        },
+        {
+          "job": "drk",
+          "bossHp": "2082598"
+        },
+        {
+          "job": "gnb",
+          "bossHp": "2197461"
+        },
+        {
+          "job": "whm",
+          "bossHp": "1817095"
+        },
+        {
+          "job": "sch",
+          "bossHp": "1562890"
+        },
+        {
+          "job": "ast",
+          "bossHp": "1472506"
+        },
+        {
+          "job": "sge",
+          "bossHp": "1860404"
+        },
+        {
+          "job": "mnk",
+          "bossHp": "2997736"
+        },
+        {
+          "job": "drg",
+          "bossHp": "3082471"
+        },
+        {
+          "job": "nin",
+          "bossHp": "3035396"
+        },
+        {
+          "job": "sam",
+          "bossHp": "3201100"
+        },
+        {
+          "job": "rpr",
+          "bossHp": "3093769"
+        },
+        {
+          "job": "vpr",
+          "bossHp": "3231228"
+        },
+        {
+          "job": "brd",
+          "bossHp": "2387644"
+        },
+        {
+          "job": "mch",
+          "bossHp": "2971374"
+        },
+        {
+          "job": "dnc",
+          "bossHp": "2195578"
+        },
+        {
+          "job": "blm",
+          "bossHp": "3310314"
+        },
+        {
+          "job": "smn",
+          "bossHp": "2818851"
+        },
+        {
+          "job": "rdm",
+          "bossHp": "2848979"
+        },
+        {
+          "job": "pct",
+          "bossHp": "3114482"
+        }
+      ]
+    },
+    {
+      "bossName": "Everkeep (Extreme) ",
+      "bossNameJP": "極ゾラージャ討滅戦 ",
+      "bossNameDE": "Gok Tajaal - Zoraal Ja ",
+      "bossNameFR": "Le Pinacle de l'Éternité (extrême) ",
+      "type": "Trial",
+      "expansion": "Dawntrail",
+      "jobs": [
+        {
+          "job": "pld",
+          "bossHp": "2076949"
+        },
+        {
+          "job": "war",
+          "bossHp": "2169216"
+        },
+        {
+          "job": "drk",
+          "bossHp": "2082598"
+        },
+        {
+          "job": "gnb",
+          "bossHp": "2197461"
+        },
+        {
+          "job": "whm",
+          "bossHp": "1817095"
+        },
+        {
+          "job": "sch",
+          "bossHp": "1562890"
+        },
+        {
+          "job": "ast",
+          "bossHp": "1472506"
+        },
+        {
+          "job": "sge",
+          "bossHp": "1860404"
+        },
+        {
+          "job": "mnk",
+          "bossHp": "2997736"
+        },
+        {
+          "job": "drg",
+          "bossHp": "3082471"
+        },
+        {
+          "job": "nin",
+          "bossHp": "3035396"
+        },
+        {
+          "job": "sam",
+          "bossHp": "3201100"
+        },
+        {
+          "job": "rpr",
+          "bossHp": "3093769"
+        },
+        {
+          "job": "vpr",
+          "bossHp": "3231228"
+        },
+        {
+          "job": "brd",
+          "bossHp": "2387644"
+        },
+        {
+          "job": "mch",
+          "bossHp": "2971374"
+        },
+        {
+          "job": "dnc",
+          "bossHp": "2195578"
+        },
+        {
+          "job": "blm",
+          "bossHp": "3310314"
+        },
+        {
+          "job": "smn",
+          "bossHp": "2818851"
+        },
+        {
+          "job": "rdm",
+          "bossHp": "2848979"
+        },
+        {
+          "job": "pct",
+          "bossHp": "3114482"
+        }
+      ]
+    },
+    {
+      "bossName": "AAC Light-heavyweight ",
+      "bossNameJP": "至天の座アルカディア：ライトヘビー級",
+      "bossNameDE": "Arkadion - Halbschwergewicht ",
+      "bossNameFR": "Poids mi-lourds CCA ",
+      "type": "Raid",
+      "expansion": "Dawntrail",
+      "jobs": [
+        {
+          "job": "pld",
+          "bossHp": "2009161"
+        },
+        {
+          "job": "war",
+          "bossHp": "2097662"
+        },
+        {
+          "job": "drk",
+          "bossHp": "2014810"
+        },
+        {
+          "job": "gnb",
+          "bossHp": "2125907"
+        },
+        {
+          "job": "whm",
+          "bossHp": "1756839"
+        },
+        {
+          "job": "sch",
+          "bossHp": "1512049"
+        },
+        {
+          "job": "ast",
+          "bossHp": "1423548"
+        },
+        {
+          "job": "sge",
+          "bossHp": "1800148"
+        },
+        {
+          "job": "mnk",
+          "bossHp": "2899820"
+        },
+        {
+          "job": "drg",
+          "bossHp": "2982672"
+        },
+        {
+          "job": "nin",
+          "bossHp": "2935597"
+        },
+        {
+          "job": "sam",
+          "bossHp": "3097535"
+        },
+        {
+          "job": "rpr",
+          "bossHp": "2993970"
+        },
+        {
+          "job": "vpr",
+          "bossHp": "3125780"
+        },
+        {
+          "job": "brd",
+          "bossHp": "2310441"
+        },
+        {
+          "job": "mch",
+          "bossHp": "2875341"
+        },
+        {
+          "job": "dnc",
+          "bossHp": "2124024"
+        },
+        {
+          "job": "blm",
+          "bossHp": "3202983"
+        },
+        {
+          "job": "smn",
+          "bossHp": "2726584"
+        },
+        {
+          "job": "rdm",
+          "bossHp": "2756712"
+        },
+        {
+          "job": "pct",
+          "bossHp": "3014683"
+        }
+      ]
+    },
+    {
+      "bossName": "AAC Light-heavyweight M1 (Savage)",
+      "bossNameJP": "至天の座アルカディア零式：ライトヘビー級1",
+      "bossNameDE": "Arkadion - Halbschwergewicht R1 (episch) ",
+      "bossNameFR": "Poids mi-lourds CCA - match 1 (sadique)",
+      "type": "Raid",
+      "expansion": "Dawntrail",
+      "jobs": [
+        {
+          "job": "pld",
+          "bossHp": "2366931"
+        },
+        {
+          "job": "war",
+          "bossHp": "2470496"
+        },
+        {
+          "job": "drk",
+          "bossHp": "2372580"
+        },
+        {
+          "job": "gnb",
+          "bossHp": "2502507"
+        },
+        {
+          "job": "whm",
+          "bossHp": "2069417"
+        },
+        {
+          "job": "sch",
+          "bossHp": "1779435"
+        },
+        {
+          "job": "ast",
+          "bossHp": "1677753"
+        },
+        {
+          "job": "sge",
+          "bossHp": "2118375"
+        },
+        {
+          "job": "mnk",
+          "bossHp": "3415762"
+        },
+        {
+          "job": "drg",
+          "bossHp": "3511795"
+        },
+        {
+          "job": "nin",
+          "bossHp": "3457188"
+        },
+        {
+          "job": "sam",
+          "bossHp": "3647371"
+        },
+        {
+          "job": "rpr",
+          "bossHp": "3524976"
+        },
+        {
+          "job": "vpr",
+          "bossHp": "3681265"
+        },
+        {
+          "job": "brd",
+          "bossHp": "2719052"
+        },
+        {
+          "job": "mch",
+          "bossHp": "3385634"
+        },
+        {
+          "job": "dnc",
+          "bossHp": "2500624"
+        },
+        {
+          "job": "blm",
+          "bossHp": "3771649"
+        },
+        {
+          "job": "smn",
+          "bossHp": "3210515"
+        },
+        {
+          "job": "rdm",
+          "bossHp": "3246292"
+        },
+        {
+          "job": "pct",
+          "bossHp": "3549455"
+        }
+      ]
+    },
+    {
+      "bossName": "AAC Light-heavyweight M2 (Savage)",
+      "bossNameJP": "至天の座アルカディア零式：ライトヘビー級2",
+      "bossNameDE": "Arkadion - Halbschwergewicht R2 (episch) ",
+      "bossNameFR": "Poids mi-lourds CCA - match 2 (sadique)",
+      "type": "Raid",
+      "expansion": "Dawntrail",
+      "jobs": [
+        {
+          "job": "pld",
+          "bossHp": "2444134"
+        },
+        {
+          "job": "war",
+          "bossHp": "2551465"
+        },
+        {
+          "job": "drk",
+          "bossHp": "2449783"
+        },
+        {
+          "job": "gnb",
+          "bossHp": "2583476"
+        },
+        {
+          "job": "whm",
+          "bossHp": "2137205"
+        },
+        {
+          "job": "sch",
+          "bossHp": "1837808"
+        },
+        {
+          "job": "ast",
+          "bossHp": "1732360"
+        },
+        {
+          "job": "sge",
+          "bossHp": "2188046"
+        },
+        {
+          "job": "mnk",
+          "bossHp": "3526859"
+        },
+        {
+          "job": "drg",
+          "bossHp": "3626658"
+        },
+        {
+          "job": "nin",
+          "bossHp": "3570168"
+        },
+        {
+          "job": "sam",
+          "bossHp": "3766000"
+        },
+        {
+          "job": "rpr",
+          "bossHp": "3639839"
+        },
+        {
+          "job": "vpr",
+          "bossHp": "3801777"
+        },
+        {
+          "job": "brd",
+          "bossHp": "2809436"
+        },
+        {
+          "job": "mch",
+          "bossHp": "3496731"
+        },
+        {
+          "job": "dnc",
+          "bossHp": "2583476"
+        },
+        {
+          "job": "blm",
+          "bossHp": "3895927"
+        },
+        {
+          "job": "smn",
+          "bossHp": "3315963"
+        },
+        {
+          "job": "rdm",
+          "bossHp": "3351740"
+        },
+        {
+          "job": "pct",
+          "bossHp": "3664318"
+        }
+      ]
+    },
+    {
+      "bossName": "AAC Light-heavyweight M3 (Savage)",
+      "bossNameJP": "至天の座アルカディア零式：ライトヘビー級3",
+      "bossNameDE": "Arkadion - Halbschwergewicht R3 (episch) ",
+      "bossNameFR": "Poids mi-lourds CCA - match 3 (sadique)",
+      "type": "Raid",
+      "expansion": "Dawntrail",
+      "jobs": [
+        {
+          "job": "pld",
+          "bossHp": "2521337"
+        },
+        {
+          "job": "war",
+          "bossHp": "2632434"
+        },
+        {
+          "job": "drk",
+          "bossHp": "2526986"
+        },
+        {
+          "job": "gnb",
+          "bossHp": "2666328"
+        },
+        {
+          "job": "whm",
+          "bossHp": "2204993"
+        },
+        {
+          "job": "sch",
+          "bossHp": "1896181"
+        },
+        {
+          "job": "ast",
+          "bossHp": "1786967"
+        },
+        {
+          "job": "sge",
+          "bossHp": "2257717"
+        },
+        {
+          "job": "mnk",
+          "bossHp": "3637956"
+        },
+        {
+          "job": "drg",
+          "bossHp": "3741521"
+        },
+        {
+          "job": "nin",
+          "bossHp": "3683148"
+        },
+        {
+          "job": "sam",
+          "bossHp": "3884629"
+        },
+        {
+          "job": "rpr",
+          "bossHp": "3754702"
+        },
+        {
+          "job": "vpr",
+          "bossHp": "3920406"
+        },
+        {
+          "job": "brd",
+          "bossHp": "2897937"
+        },
+        {
+          "job": "mch",
+          "bossHp": "3607828"
+        },
+        {
+          "job": "dnc",
+          "bossHp": "2664445"
+        },
+        {
+          "job": "blm",
+          "bossHp": "4018322"
+        },
+        {
+          "job": "smn",
+          "bossHp": "3421411"
+        },
+        {
+          "job": "rdm",
+          "bossHp": "3459071"
+        },
+        {
+          "job": "pct",
+          "bossHp": "3781064"
+        }
+      ]
+    },
+    {
+      "bossName": "AAC Light-heavyweight M4 (Savage)",
+      "bossNameJP": "至天の座アルカディア零式：ライトヘビー級4",
+      "bossNameDE": "Arkadion - Halbschwergewicht R4 (episch) ",
+      "bossNameFR": "Poids mi-lourds CCA - match 4 (sadique)",
+      "type": "Raid",
+      "expansion": "Dawntrail",
+      "jobs": [
+        {
+          "job": "pld",
+          "bossHp": "2677626"
+        },
+        {
+          "job": "war",
+          "bossHp": "2796255"
+        },
+        {
+          "job": "drk",
+          "bossHp": "2683275"
+        },
+        {
+          "job": "gnb",
+          "bossHp": "2832032"
+        },
+        {
+          "job": "whm",
+          "bossHp": "2342452"
+        },
+        {
+          "job": "sch",
+          "bossHp": "2014810"
+        },
+        {
+          "job": "ast",
+          "bossHp": "1898064"
+        },
+        {
+          "job": "sge",
+          "bossHp": "2397059"
+        },
+        {
+          "job": "mnk",
+          "bossHp": "3863916"
+        },
+        {
+          "job": "drg",
+          "bossHp": "3973130"
+        },
+        {
+          "job": "nin",
+          "bossHp": "3912874"
+        },
+        {
+          "job": "sam",
+          "bossHp": "4125653"
+        },
+        {
+          "job": "rpr",
+          "bossHp": "3988194"
+        },
+        {
+          "job": "vpr",
+          "bossHp": "4165196"
+        },
+        {
+          "job": "brd",
+          "bossHp": "3076822"
+        },
+        {
+          "job": "mch",
+          "bossHp": "3831905"
+        },
+        {
+          "job": "dnc",
+          "bossHp": "2830149"
+        },
+        {
+          "job": "blm",
+          "bossHp": "4268761"
+        },
+        {
+          "job": "smn",
+          "bossHp": "3634190"
+        },
+        {
+          "job": "rdm",
+          "bossHp": "3673733"
+        },
+        {
+          "job": "pct",
+          "bossHp": "4016439"
+        }
+      ]
     }
   ]
 }

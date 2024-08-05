@@ -7,7 +7,6 @@ import MenuItem from '@material-ui/core/MenuItem'
 import Button from '@material-ui/core/Button'
 import ButtonGroup from '@material-ui/core/ButtonGroup'
 import Menu from '@material-ui/core/Menu'
-import { Tooltip } from '@material-ui/core'
 import data from '../public/bossdata/data.json'
 import UserContext from './UserContext'
 
@@ -142,7 +141,7 @@ function BossMenu({ selectedIndex, setSelectedIndex }) {
 }
 
 const BossSelection = () => {
-  const [expansion, setExpansion] = useState('Endwalker')
+  const [expansion, setExpansion] = useState('Dawntrail')
   const { lang } = useContext(UserContext)
   const [selectedIndex, setSelectedIndex] = useState(1)
 
@@ -162,6 +161,18 @@ const BossSelection = () => {
       <ButtonGroup style={{ height: '32px' }} aria-label="outlined primary button group" fullWidth>
         <Button
           style={{
+            background: expansion === 'Dawntrail' ? '#a37945' : '#eeaf61',
+            fontWeight: 'bold',
+            color: expansion === 'Dawntrail' ? 'white' : 'black',
+          }}
+          onClick={() => setExpansion('Dawntrail')}
+        >
+          Dawntrail
+        </Button>
+      </ButtonGroup>
+      <ButtonGroup style={{ height: '32px' }} aria-label="outlined primary button group" fullWidth>
+        <Button
+          style={{
             background: expansion === 'Endwalker' ? '#202d3f' : '#476997',
             fontWeight: 'bold',
             color: expansion === 'Endwalker' ? '#e5e4e2' : 'black',
@@ -172,7 +183,8 @@ const BossSelection = () => {
         </Button>
       </ButtonGroup>
       <br />
-      <Tooltip title="Legacy Content is Temporarily Disabled." arrow>
+
+      {/* <Tooltip title="Legacy Content is Temporarily Disabled." arrow>
         <ButtonGroup style={{ height: '32px' }} aria-label="outlined primary button group" fullWidth disabled>
           <Button
             style={{
@@ -208,7 +220,7 @@ const BossSelection = () => {
             ShB
           </Button>
         </ButtonGroup>
-      </Tooltip>
+      </Tooltip> */}
       <p />
 
       <BossMenu selectedIndex={selectedIndex} setSelectedIndex={setSelectedIndex} />

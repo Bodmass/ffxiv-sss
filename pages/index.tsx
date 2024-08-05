@@ -3,6 +3,7 @@ import Header from '../components/Header'
 import Calculator from '../components/Calculator'
 import Footer from '../components/Footer'
 import LanguageSelection from '../components/LanguageSelection'
+import CookieBanner from '../components/CookieBanner'
 
 export default function Home() {
   return (
@@ -11,22 +12,26 @@ export default function Home() {
         <title>FFXIV Stone, Sky, Sea Calculator</title>
         <meta
           name="description"
-          content="Final Fantasy XIV Endwalker DPS Calculator for Stone, Sky, Sea. Updated for Patch 6.5 (06/10/2023)"
+          content="Final Fantasy XIV Dawntrail DPS Calculator for Stone, Sky, Sea. Updated for Patch 7.05 (30/07/2024)"
         />
-        <meta name="keywords" content="FFXIV, Final Fantasy XIV, Final Fantasy 14, DPS, Calculator, Stone Sky Sea" />
+        <meta
+          name="keywords"
+          content="FFXIV, Final Fantasy XIV, Final Fantasy 14, DPS, Calculator, Stone Sky Sea, The Trial of Spire"
+        />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
       <div className="updateDetails">
         <body>
           <p>
-            <b>Updated for Patch 6.5 (06/10/2023)</b>
+            <b>Updated for Patch 7.05 (30/07/2024)</b>
           </p>
         </body>
       </div>
       <LanguageSelection />
       <Calculator />
       <Footer />
+      <CookieBanner />
     </div>
   )
 }
